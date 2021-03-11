@@ -1,0 +1,166 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../bhw.autogen.hfst
+    Morph: ../bhw.automorf.hfst
+Tests:
+  Alienable Possession:
+    ' ikák<n> an<det><dem><p3><sg><spc><prox> snonsnon<n> det<det><pos><px3sg><spc> Kormsamba<ant>':
+    - ikák anine snosnon vyedya Kormsamba
+    ' romawa<n> det<det><pos><p3><px1sg><spc>':
+    - romawa yedya
+    ' romawa<n> inai<n> Manseren<n> det<det><pos><p3><pxpl><spc>':
+    - ' romawa inai Manseren vyesya'
+    ' rum<n> det<det><pos><pl><spc> clause<rel><loc> an<det><dem><p1>':
+    - rum inkove vero dine anya
+    ' vín<n> an<det><dem><p3><pl><sp> det<det><pos><p3><pxpl><spc>':
+    - vín anya vyesya
+  CC-initial:
+    srow<v><p1><du><ex>:
+    - nusrow
+    srow<v><p1><du><inc>:
+    - kusrow
+    srow<v><p1><pl><exc>:
+    - nkosrow
+    srow<v><p1><pl><inc>:
+    - kosrow
+    srow<v><p1><sg>:
+    - yasrow
+    srow<v><p2><du>:
+    - musrow
+    srow<v><p2><pl>:
+    - mkosrow
+    srow<v><p2><sg>:
+    - wasrow
+    srow<v><p3><du>:
+    - susrow
+    srow<v><p3><pc>:
+    - skosrow
+    srow<v><p3><pl><an>:
+    - sisrow
+    srow<v><p3><pl><inan>:
+    - nasrow
+    srow<v><p3><sg>:
+    - isrow
+  CV-initial:
+    so<v><p1><du><ex>:
+    - nuso
+    so<v><p1><du><inc>:
+    - kuso
+    so<v><p1><pl><exc>:
+    - nkoso
+    so<v><p1><pl><inc>:
+    - koso
+    so<v><p1><sg>:
+    - yaso
+    so<v><p2><du>:
+    - muso
+    so<v><p2><pl>:
+    - mkoso
+    so<v><p2><sg>:
+    - swo
+    so<v><p3><du>:
+    - suso
+    so<v><p3><pc>:
+    - skoso
+    so<v><p3><pl><an>:
+    - siso
+    so<v><p3><pl><inan>:
+    - naso
+    so<v><p3><sg>:
+    - syo
+  Complex Articles: {}
+  Conjuctions:
+    ' indo<cnjsub>':
+    - indo
+    ' indya<cnjcoo>':
+    - indya
+    ' ma<cnjcoo>':
+    - ma
+    ' ra<cnjsub>':
+    - ra
+    ' voi<cnjcoo>':
+    - voi
+  Demonstratives: {}
+  Directionals: {}
+  Givenness:
+    ikoi<n> det<det><giv><p3><sg>:
+    - ikoi nanya
+    kpu<n> det<det><giv><p3><sg>:
+    - kpu anya
+    rum<n> det<det><giv><p3><sg>:
+    - rum anya
+    waw<n> det<det><giv><p3><sg>:
+    - waw anya
+  Grammar Points: {}
+  Inalienable Possession:
+    ' Frans<ant> det<det><pos><p3><px3sg><spc>':
+    - Frans kmari
+    ' Sneri<n><pos> ba<v><p3><sng>':
+    - Sneri iba
+    ' Snewar<n> det<det><pos><p3><px3sg><spc> iba<v><p3><sng>':
+    - Snewar vyedya iba
+    ' Vyuk<v><p3><sng> wemin<n> rasar<v><p3><spc> skop<v><p3><sng> i<n><p3>':
+    - ' Vyuk wemin rasarya iskop'
+  Motion:
+    det<det><giv><p2><pl><spc><dir><dem><mot>:
+    - nanmkoipuryafa
+    det<det><giv><p3><sg><spc><dir><dem>:
+    - anipurwa
+    det<det><p3><sg><spc><dir><dem>:
+    - iraya
+    det<det><p3><sg><spc><mot>:
+    - iwama
+  Noun Specificity:
+    Wardo<n><spc><p1><pl><ex>:
+    - Wardoinkoya
+    for<n> ba<rel><spc><p3><sg>:
+    - for vebaya
+    yuk<n><nspc><pl>:
+    - yukno
+    yuk<n><nspc><sg>:
+    - yuko
+    yuk<n><spc><p1><sg>:
+    - yukya
+  Possession (Alienable/Inalienable): {}
+  Prepositions:
+    ' bur<pr>':
+    - bur
+    ' ker<pr>':
+    - ker
+    ' kukr<pr>':
+    - kukr
+    ' ro<pr>':
+    - ro
+    ' snar<pr>':
+    - snar
+  References: {}
+  V-initial:
+    arok<v><p1><du><ex>:
+    - nuyarok
+    arok<v><p1><du><inc>:
+    - kuyarok
+    arok<v><p1><pl><exc>:
+    - nkarok
+    arok<v><p1><pl><inc>:
+    - karok
+    arok<v><p1><sg>:
+    - yarok
+    arok<v><p2><du>:
+    - muyarok
+    arok<v><p2><pl>:
+    - mkarok
+    arok<v><p2><sg>:
+    - warok
+    arok<v><p3><du>:
+    - suyarok
+    arok<v><p3><pc>:
+    - skarok
+    arok<v><p3><pl><an>:
+    - sarok
+    arok<v><p3><pl><inan>:
+    - narok
+    arok<v><p3><sg>:
+    - darok
+  Verb number/person inflection: {}
+  Word Classes: {}

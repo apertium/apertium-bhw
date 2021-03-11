@@ -27,23 +27,64 @@
 ###############################################################################
 
 PATTERNS
-NounRoot RegNounInfl
-Punctuation
-
-
-LEXICON RegNounInfl
-
-<n><sg>:
-<n><pl>:>s
+# Punctuation
+:Verb-CC-Affix Verb-CC [<v>:] Verb-CC-Affix:
+:Verb-V-Affix  Verb-V  [<v>:] Verb-V-Affix:
+Noun [<n>:] NounSpecificity
 
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
 
-LEXICON NounRoot
+LEXICON Verb-CC
 
-house:house   # A noun
+srow:srow # meet
+
+LEXICON Verb-CC-Affix
+
+<p1><sg>:ya
+<p2><sg>:wa
+<p3><sg>:i
+<p1><du><ex>:nu
+<p1><du><inc>:ku
+<p2><du>:mu
+<p3><du>:su
+<p3><pc>:sko
+<p1><pl><esc>:nko
+<p1><pl><inc>:ko
+<p2><pl>:mko
+<p3><pl><an>:si
+<p3><pl><inan>:na
+
+LEXICON Verb-V
+
+arok # be straight
+
+LEXICON Verb-V-Affix
+
+<p1><sg>:y
+<p2><sg>:w
+<p3><sg>:d
+<p1><du><ex>:nuy
+<p1><du><inc>:kuy
+<p2><du>:muy
+<p3><du>:suy
+<p3><pc>:sk
+<p1><pl><exc>:nk
+<p1><pl><inc>:k
+<p2><pl>:mk
+<p3><pl><an>:s
+<p3><pl><inan>:n
+
+LEXICON Noun
+
+yuk:yuk # ukelele
+
+LEXICON NounSpecificity
+
+<npsc><sg>:o
+<nspc><pl>:no
 
 
 LEXICON Punctuation
