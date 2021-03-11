@@ -3,7 +3,9 @@
 # Part of speech categories
 # <n>      # Noun
 # <v>      # Verb
-# <adj>    # Adjective
+# <adv>    # Adverb
+# <prn>    # pronoun
+# <det>    # determiner
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -19,6 +21,12 @@
 # <pl>  # Plural
 # <sg>  # Singular
 
+# Complex articles
+# <pers> # personal
+# <spc>  # specific
+# <giv>  # givenness
+# <dem>  # demonstrative
+
 # Other symbols
 # >      # Morpheme boundary
 
@@ -30,43 +38,76 @@ PATTERNS
 # Punctuation
 :Verb-CC-Affix Verb-CC [<v>:] Verb-CC-Affix:
 :Verb-V-Affix  Verb-V  [<v>:] Verb-V-Affix:
-Noun [<n>:] NounSpecificity
-:Givenness [det:] Article :Givenness 
-Possessor Possessum
+Noun [<n>:] NounSpecificity?
+ComplexArticle
+#Possessor Possessum
+
+PATTERN ComplexArticle
+:Givenness? Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
+
+PATTERN DemonstrativeDeterminer
+[+:] Directional? Demonstrative [<det><dem>:]
+
+PATTERN MotionPat
+[+:] Motion
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
+
+LEXICON Directional
+rum:rum
+ri:ri
+ra:ra
+re:re
+pon:pon
+pur:pur
+yas:yas
+vav:vas
+vun:vun
+var:var
+
+LEXICON Demonstrative
+ne:ne
+ya:ya
+wa:wa
+
+LEXICON Motion
+ma<adv>:ma
+fa<adv>:fa
+ra<adv>ra:
 
 LEXICON Givenness
 
 <giv>:an
 <giv>:nan
 
-LEXICON Article
+LEXICON Pronoun-Specifier
 
-<p1><sg><spc>:yai
-<p2><sg><spc>:awya
-<p2><sg><spc>:awya
-<p3><sg><spc>:ya
-<p3><sg><spc>:i
-<p1><du><inc>:kuya
-<p1><du><inc>:kuyi
-<p1><du><ex>:nuya
-<p1><du><ex>:nuyi
-<p2><du>:muya
-<p2><du>:muyi
-<p3><du>:suya
-<p3><du>:sui
-<p3><pc>:skoya
-<p3><pc>:skoi
-<p1><pl><inc>:inkoya
-<p1><pl><inc>:inkoi
-<p2><pl>:mkoya
-<p2><pl>:mkoi
-<p3><pl><an>:sya
-<p3><pl><an>:si
-<p3><pl><inan>:na
+aya<prn><pers><p1><sg><spc>:yai
+aw<prn><pers><p2><sg><spc>:awya
+aw<prn><pers><p2><sg><spc>:awya
+i<prn><pers><p3><sg><spc>:ya
+i<prn><pers><p3><sg><spc>:i
+ku<prn><pers><p1><du><inc>:kuya
+ku<prn><pers><p1><du><inc>:kuyi
+nu<prn><pers><p1><du><ex>:nuya
+nu<prn><pers><p1><du><ex>:nuyi
+mu<prn><pers><p2><du>:muya
+mu<prn><pers><p2><du>:muyi
+su<prn><pers><p3><du>:suya
+su<prn><pers><p3><du>:sui
+sko<prn><pers><p3><pc>:skoya
+sko<prn><pers><p3><pc>:skoi
+ko<prn><pers><p1><pl><inc>:koya
+no<prn><pers><p1><pl><inc>:koi
+inko<prn><pers><p1><pl><ex>:inkoya
+inko<prn><pers><p1><pl><ex>:inkoi
+mko<prn><pers><p2><pl>:mkoya
+mko<prn><pers><p2><pl>:mkoi
+si<prn><pers><p3><pl><an>:sya
+si<prn><pers><p3><pl><an>:si
+na<prn><pers><p3><pl><inan>:na
 
 
 LEXICON Verb-CC
@@ -136,8 +177,8 @@ det<det><pos><px2pl>:mkove
 det<det><pos><px3pl><an>:se
 det<det><pos><px3pl><inan>:nbe
 
-LEXICON Possessum
-<
+#LEXICON Possessum
+#<
 
 
 
