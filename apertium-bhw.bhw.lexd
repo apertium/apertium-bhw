@@ -31,11 +31,43 @@ PATTERNS
 :Verb-CC-Affix Verb-CC [<v>:] Verb-CC-Affix:
 :Verb-V-Affix  Verb-V  [<v>:] Verb-V-Affix:
 Noun [<n>:] NounSpecificity
-
+:Givenness [det:] Article :Givenness 
+Possessor Possessum
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
+
+LEXICON Givenness
+
+<giv>:an
+<giv>:nan
+
+LEXICON Article
+
+<p1><sg><spc>:yai
+<p2><sg><spc>:awya
+<p2><sg><spc>:awya
+<p3><sg><spc>:ya
+<p3><sg><spc>:i
+<p1><du><inc>:kuya
+<p1><du><inc>:kuyi
+<p1><du><ex>:nuya
+<p1><du><ex>:nuyi
+<p2><du>:muya
+<p2><du>:muyi
+<p3><du>:suya
+<p3><du>:sui
+<p3><pc>:skoya
+<p3><pc>:skoi
+<p1><pl><inc>:inkoya
+<p1><pl><inc>:inkoi
+<p2><pl>:mkoya
+<p2><pl>:mkoi
+<p3><pl><an>:sya
+<p3><pl><an>:si
+<p3><pl><inan>:na
+
 
 LEXICON Verb-CC
 
@@ -51,7 +83,7 @@ LEXICON Verb-CC-Affix
 <p2><du>:mu
 <p3><du>:su
 <p3><pc>:sko
-<p1><pl><esc>:nko
+<p1><pl><ex>:nko
 <p1><pl><inc>:ko
 <p2><pl>:mko
 <p3><pl><an>:si
@@ -85,6 +117,28 @@ LEXICON NounSpecificity
 
 <npsc><sg>:o
 <nspc><pl>:no
+
+LEXICON Possessor
+det<det><pos><px1sg>:aye
+det<det><pos><px1sg>:ye
+det<det><pos><px2sg>:be
+det<det><pos><px3sg>:vye
+det<det><pos><px3sg>:ye
+det<det><pos><px1du><inc>:kuve
+det<det><pos><px1du><ex>:nuve
+det<det><pos><px2du>:muve
+det<det><pos><px3du>:suve
+det<det><pos><px1pc>:skove
+det<det><pos><px1pl><inc>:kove
+det<det><pos><px1pl><ex>:nkove
+det<det><pos><px1pl><ex>:inkove
+det<det><pos><px2pl>:mkove
+det<det><pos><px3pl><an>:se
+det<det><pos><px3pl><inan>:nbe
+
+LEXICON Possessum
+<
+
 
 
 LEXICON Punctuation
