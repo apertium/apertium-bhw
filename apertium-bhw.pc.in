@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-bhw
+
+Name: apertium-bhw
+Description: Finite-state morphological transducer and constraint grammar for Biak
+Version: @VERSION@
+
