@@ -36,8 +36,8 @@
 
 PATTERNS
 # Punctuation
-:Verb-CC-Affix Verb-CC [<v>:] Verb-CC-Affix:
-:Verb-V-Affix  Verb-V  [<v>:] Verb-V-Affix:
+:Verb-CC-Affix Verb-CC Verb-CC-Affix:
+:Verb-V-Affix  Verb-V  Verb-V-Affix:
 Noun [<n>:] NounSpecificity?
 ComplexArticle
 Possessor Possessum [<spc>:]
@@ -112,7 +112,7 @@ na<prn><pers><p3><pl><inan>:na
 
 LEXICON Verb-CC #need to add transivity?
 
-srow:srow # meet
+srow<v><tv>:srow # meet
 
 LEXICON Verb-CC-Affix
 
@@ -132,7 +132,7 @@ LEXICON Verb-CC-Affix
 
 LEXICON Verb-V
 
-arok # be straight
+arok<v><iv>:arok # be straight
 
 LEXICON Verb-V-Affix
 
