@@ -36,13 +36,17 @@
 
 PATTERNS
 # Punctuation
-:Verb-CC-Affix Verb-CC Verb-CC-Affix:
-:Verb-V-Affix  Verb-V  Verb-V-Affix:
+VerbPat
 NounPat
 ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
 Prepositions
+
+PATTERN VerbPat
+:Verb-CC-Affix Verb-CC Verb-CC-Affix:
+:Verb-V-Affix  Verb-V  Verb-V-Affix:
+:Verb-CV-Affix Verb-CV Verb-CV-Affix:
 
 PATTERN NounPat
 Noun [<n>:] NounSpecificity?
@@ -116,6 +120,25 @@ si<prn><pers><p3><pl><an><spc>:sya
 si<prn><pers><p3><pl><an><spc>:si
 na<prn><pers><p3><pl><inan><spc>:na
 
+LEXICON Verb-CV-Affix
+
+<p1><sg>:ya
+<p2><sg>:{2}
+<p3><sg>:{3}
+<p1><du><ex>:nu
+# <p1><du><inc>:ku
+# <p2><du>:mu
+# <p3><du>:su
+# <p3><pc>:sko
+# <p1><pl><ex>:nko
+# <p1><pl><inc>:ko
+# <p2><pl>:mko
+# <p3><pl><an>:si
+# <p3><pl><inan>:na
+
+LEXICON Verb-CV
+
+so<v><tv>:s{W}o # throw
 
 LEXICON Verb-CC #need to add transivity?
 

@@ -7,6 +7,8 @@ Tests:
   Alienable Possession:
     det<det><pos><px1pc><sg><spc>:
     - skovedya
+    det<det><pos><px1pl><pxex><sg><spc>:
+    - inkovedya
     det<det><pos><px1sg><sg><spc>:
     - yedya
     det<det><pos><px3sg><du><spc>:
@@ -15,8 +17,6 @@ Tests:
     - vyesya
     det<det><pos><px3sg><sg><spc>:
     - vyedya
-    det<det><pos><pxpl><pxex><sg><spc>:
-    - inkovedya
   CC-initial:
     srow<v><tv><p1><du><ex>:
     - nusrow
