@@ -49,7 +49,8 @@ Noun [<n>:] NounSpecificity?
 Noun [<n>:] [+:] Pronoun-Specifier
 
 PATTERN ComplexArticle
-:Givenness? Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
+Pronoun-Specifier DemonstrativeDeterminer? MotionPat?
+:Givenness Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
 
 PATTERN DemonstrativeDeterminer
 [+:] Directional? Demonstrative [<det><dem>:]
