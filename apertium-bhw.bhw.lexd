@@ -188,13 +188,30 @@ LEXICON Possessum
 <pl><an>:i
 <pl><inan>:na
 
-LEXICON Conjunction # should we put them all?
+LEXICON Conjunction 
 
-indya<cnjcoo>:indya #so
-indo<cnjsub>:indo 
 ma<cnjcoo>:ma #and
+kukr<cnjsub>:kukr #with, because
+kukru<cnjsub>:kukr #with, because
+infa<cnjsub>:infa #so that
+fa<cnjsub>:fa #so that
 ra<cnjsub>:ra #until
+indya<cnjcoo>:indya #so
+vo<cnjsub>:vo #while
 voi<cnjcoo>:voi #but
+imboi<cnjcoo>:imboi #but
+
+LEXICON Prepositions
+ro<pr>:ro # at
+ra<pr>:ra # along, over
+ve<pr>:ve # to
+kukr<pr>:kukr # with
+snar<pr>:snar # because of
+ker<pr>:ker # from
+bur<pr>:bur # from
+yov<pr>:yov # to
+
+
 
 
 
