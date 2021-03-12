@@ -40,7 +40,7 @@ PATTERNS
 :Verb-V-Affix  Verb-V  [<v>:] Verb-V-Affix:
 Noun [<n>:] NounSpecificity?
 ComplexArticle
-#Possessor Possessum
+Possessor Possessum [<spc>:]
 
 PATTERN ComplexArticle
 :Givenness? Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
@@ -110,7 +110,7 @@ si<prn><pers><p3><pl><an>:si
 na<prn><pers><p3><pl><inan>:na
 
 
-LEXICON Verb-CC
+LEXICON Verb-CC #need to add transivity?
 
 srow:srow # meet
 
@@ -177,8 +177,25 @@ det<det><pos><px2pl>:mkove
 det<det><pos><px3pl><an>:se
 det<det><pos><px3pl><inan>:nbe
 
-#LEXICON Possessum
-#<
+LEXICON Possessum
+<sg>:di
+<sg>:dya
+<du>:suya
+<du>:i
+<pc>:skoya
+<pc>:i
+<pl><an>:sya
+<pl><an>:i
+<pl><inan>:na
+
+LEXICON Conjunction # should we put them all?
+
+indya<cnjcoo>:indya #so
+indo<cnjsub>:indo 
+ma<cnjcoo>:ma #and
+ra<cnjsub>:ra #until
+voi<cnjcoo>:voi #but
+
 
 
 
