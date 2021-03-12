@@ -38,9 +38,15 @@ PATTERNS
 # Punctuation
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
 :Verb-V-Affix  Verb-V  Verb-V-Affix:
-Noun [<n>:] NounSpecificity?
+NounPat
 ComplexArticle
 Possessor Possessum [<spc>:]
+Conjunction
+Prepositions
+
+PATTERN NounPat
+Noun [<n>:] NounSpecificity?
+Noun [<n>:] [+:] Pronoun-Specifier
 
 PATTERN ComplexArticle
 :Givenness? Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
@@ -75,7 +81,7 @@ wa:wa
 LEXICON Motion
 ma<adv>:ma
 fa<adv>:fa
-ra<adv>ra:
+ra<adv>:ra
 
 LEXICON Givenness
 
@@ -89,25 +95,25 @@ aw<prn><pers><p2><sg><spc>:awya
 aw<prn><pers><p2><sg><spc>:awya
 i<prn><pers><p3><sg><spc>:ya
 i<prn><pers><p3><sg><spc>:i
-ku<prn><pers><p1><du><inc>:kuya
-ku<prn><pers><p1><du><inc>:kuyi
-nu<prn><pers><p1><du><ex>:nuya
-nu<prn><pers><p1><du><ex>:nuyi
-mu<prn><pers><p2><du>:muya
-mu<prn><pers><p2><du>:muyi
-su<prn><pers><p3><du>:suya
-su<prn><pers><p3><du>:sui
-sko<prn><pers><p3><pc>:skoya
-sko<prn><pers><p3><pc>:skoi
-ko<prn><pers><p1><pl><inc>:koya
-no<prn><pers><p1><pl><inc>:koi
-inko<prn><pers><p1><pl><ex>:inkoya
-inko<prn><pers><p1><pl><ex>:inkoi
-mko<prn><pers><p2><pl>:mkoya
-mko<prn><pers><p2><pl>:mkoi
-si<prn><pers><p3><pl><an>:sya
-si<prn><pers><p3><pl><an>:si
-na<prn><pers><p3><pl><inan>:na
+ku<prn><pers><p1><du><inc><spc>:kuya
+ku<prn><pers><p1><du><inc><spc>:kuyi
+nu<prn><pers><p1><du><ex><spc>:nuya
+nu<prn><pers><p1><du><ex><spc>:nuyi
+mu<prn><pers><p2><du><spc>:muya
+mu<prn><pers><p2><du><spc>:muyi
+su<prn><pers><p3><du><spc>:suya
+su<prn><pers><p3><du><spc>:sui
+sko<prn><pers><p3><pc><spc>:skoya
+sko<prn><pers><p3><pc><spc>:skoi
+ko<prn><pers><p1><pl><inc><spc>:koya
+no<prn><pers><p1><pl><inc><spc>:koi
+inko<prn><pers><p1><pl><ex><spc>:inkoya
+inko<prn><pers><p1><pl><ex><spc>:inkoi
+mko<prn><pers><p2><pl><spc>:mkoya
+mko<prn><pers><p2><pl><spc>:mkoi
+si<prn><pers><p3><pl><an><spc>:sya
+si<prn><pers><p3><pl><an><spc>:si
+na<prn><pers><p3><pl><inan><spc>:na
 
 
 LEXICON Verb-CC #need to add transivity?
@@ -144,7 +150,7 @@ LEXICON Verb-V-Affix
 <p2><du>:muy
 <p3><du>:suy
 <p3><pc>:sk
-<p1><pl><exc>:nk
+<p1><pl><ex>:nk
 <p1><pl><inc>:k
 <p2><pl>:mk
 <p3><pl><an>:s
@@ -153,6 +159,7 @@ LEXICON Verb-V-Affix
 LEXICON Noun
 
 yuk:yuk # ukelele
+Wardo:Wardo #Wardo (a place)
 
 LEXICON NounSpecificity
 

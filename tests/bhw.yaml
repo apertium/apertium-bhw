@@ -5,26 +5,24 @@ Config:
     Morph: ../bhw.automorf.hfst
 Tests:
   Alienable Possession:
-    ' det<det><pos><px1pc><sg><spc>':
+    det<det><pos><px1pc><sg><spc>:
     - skovedya
-    ' det<det><pos><px1sg><sg><spc>':
+    det<det><pos><px1sg><sg><spc>:
     - yedya
-    ' det<det><pos><px3sg><du><spc>':
+    det<det><pos><px3sg><du><spc>:
     - vyesuya
-    ' det<det><pos><px3sg><pl><an><spc>':
+    det<det><pos><px3sg><pl><an><spc>:
     - vyesya
-    ' det<det><pos><px3sg><sg><spc>':
+    det<det><pos><px3sg><sg><spc>:
     - vyedya
-    ' det<det><pos><pxpl><pxex><sg><spc>':
-    - inkove
-    ' romawa<n>':
-    - romawa
+    det<det><pos><pxpl><pxex><sg><spc>:
+    - inkovedya
   CC-initial:
     srow<v><tv><p1><du><ex>:
     - nusrow
     srow<v><tv><p1><du><inc>:
     - kusrow
-    srow<v><tv><p1><pl><exc>:
+    srow<v><tv><p1><pl><ex>:
     - nkosrow
     srow<v><tv><p1><pl><inc>:
     - kosrow
@@ -51,7 +49,7 @@ Tests:
     - nuso
     so<v><tv><p1><du><inc>:
     - kuso
-    so<v><tv><p1><pl><exc>:
+    so<v><tv><p1><pl><ex>:
     - nkoso
     so<v><tv><p1><pl><inc>:
     - koso
@@ -75,15 +73,15 @@ Tests:
     - syo
   Complex Articles: {}
   Conjuctions:
-    ' indo<cnjsub>':
+    indo<cnjsub>:
     - indo
-    ' indya<cnjcoo>':
+    indya<cnjcoo>:
     - indya
-    ' ma<cnjcoo>':
+    ma<cnjcoo>:
     - ma
-    ' ra<cnjsub>':
+    ra<cnjsub>:
     - ra
-    ' voi<cnjcoo>':
+    voi<cnjcoo>:
     - voi
   Demonstratives: {}
   Directionals: {}
@@ -98,15 +96,15 @@ Tests:
     - waw anya
   Grammar Points: {}
   Inalienable Possession:
-    ' Sne<n><pos>':
-    - ' Sneri'
-    ' ba<v><p3><sg>':
+    ba<v><p3><sg>:
     - iba
-    ' det<det><pos><p3><px3sg><spc>':
+    det<det><pos><p3><px3sg><spc>:
     - vyedya
-    ' snewar<n>':
+    sne<n><pos>:
+    - sneri
+    snewar<n>:
     - snewar
-    ' wemin<n>':
+    wemin<n>:
     - wemin
   Motion:
     det<det><giv><p2><pl><spc><dir><dem><mot>:
@@ -142,15 +140,15 @@ Tests:
     - yuko
   Possession (Alienable/Inalienable): {}
   Prepositions:
-    ' bur<pr>':
+    bur<pr>:
     - bur
-    ' ker<pr>':
+    ker<pr>:
     - ker
-    ' kukr<pr>':
+    kukr<pr>:
     - kukr
-    ' ro<pr>':
+    ro<pr>:
     - ro
-    ' snar<pr>':
+    snar<pr>:
     - snar
   References: {}
   V-initial:
@@ -158,7 +156,7 @@ Tests:
     - nuyarok
     arok<v><iv><p1><du><inc>:
     - kuyarok
-    arok<v><iv><p1><pl><exc>:
+    arok<v><iv><p1><pl><ex>:
     - nkarok
     arok<v><iv><p1><pl><inc>:
     - karok
