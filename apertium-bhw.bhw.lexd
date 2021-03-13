@@ -41,6 +41,27 @@
 # <giv>  # givenness
 # <dem>  # demonstrative
 
+# Possessive
+
+# <pos> # possessive 
+# <px1sg> # possessor, 1st person
+# <px2sg> # possessor, 2nd person
+# <px3sg> # possessor, 3rd person
+# <px1du> # possessor, 1st person dual
+# <pxinc> # possessor, inclusive
+# <pxex> # possessor, exclusive
+# <px2du> # possessor, 2nd person dual
+# <px3du> # possessor, 3rd person dual
+# <px1pc> # possessor, paucal
+# <px1pl> # possessor, 1st person plural
+# <px2pl> # possessor, 2nd person plural
+# <px3pl> # possessor, 3rd person plural
+# <an> # animate
+# <inan> # inanimate
+
+
+
+
 # Other symbols
 # >      # Morpheme boundary
 
