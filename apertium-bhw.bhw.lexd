@@ -42,6 +42,7 @@ ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
 Prepositions
+[:<n><pos>] InalienablePrefix InalienableRoot InalienableSuffix
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
@@ -201,9 +202,9 @@ det<det><pos><px1du><ex>:nuve
 det<det><pos><px2du>:muve
 det<det><pos><px3du>:suve
 det<det><pos><px1pc>:skove
-det<det><pos><px1pl><inc>:kove
-det<det><pos><px1pl><ex>:nkove
-det<det><pos><px1pl><ex>:inkove
+det<det><pos><px1pl><pxinc>:kove
+det<det><pos><px1pl><pxex>:nkove
+det<det><pos><px1pl><pxex>:inkove
 det<det><pos><px2pl>:mkove
 det<det><pos><px3pl><an>:se
 det<det><pos><px3pl><inan>:nbe
@@ -242,6 +243,47 @@ snar<pr>:snar # because of
 ker<pr>:ker # from
 bur<pr>:bur # from
 yov<pr>:yov # to
+
+LEXICON InalienableRoot
+we:we #leg
+vra:vra #arm
+sne:sne #belly area
+fi:fi #vagina
+si:si #penis
+do:do #inside
+sva:sva #mouth
+ná:ná #tooth
+snoni:snoni #nose
+mka:mka #eye
+sasu:sasu #neck
+
+LEXICON InalienableSuffix
+<px1sg><sg>:ri
+<px2sg><sg>:mri
+<px3sg><sg>:ri
+<px1sg><pl>:si
+<px2sg><pl>:msi
+<px3sg><pl>:si
+<du>:sna
+<pc>:sna
+<pl>:sna
+<du>:msna
+<pc>:msna
+<pl>:msna
+
+LEXICON InalienablePrefix
+
+<px1du>:ku
+<px1du>:nu
+<px2du>:mu
+<px3du>:su
+<px3pc>:sko
+<px1pl><pxinc>:ko
+<px1pl><pxexc>:nko
+<px2pl>:mko
+<px3pl>:si
+
+
 
 
 
