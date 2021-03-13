@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../bhw.autogen.hfst
+    Morph: ../bhw.automorf.hfst
+Tests:
+  Common unidentified words:
+    <unk>:
+    - u
+    <unk>:
+    - be
+    <unk>:
+    - bo
+    <unk>:
+    - ido
+    <unk>:
+    - ba
+    <unk>:
+    - o
+    <unk>:
+    - rdi
+    <unk>:
+    - Mananarmak
+    <unk>:
+    - Inja
+    <unk>:
+    - a
+    <unk>:
+    - kaku
+    <unk>:
+    - ri
+    <unk>:
+    - mnu
+    <unk>:
+    - kwar
+    <unk>:
+    - boi
+    <unk>:
+    - rya
+    <unk>:
+    - dobe
+    <unk>:
+    - mob
+    <unk>:
+    - rum
+    <unk>:
+    - sup
