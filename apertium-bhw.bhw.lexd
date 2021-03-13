@@ -167,6 +167,7 @@ LEXICON Verb-CC-Affix
 LEXICON Verb-V
 
 arok<v><iv>:arok # be straight
+obe<v><tv>:obe # say
 
 LEXICON Verb-V-Affix
 
@@ -188,7 +189,8 @@ LEXICON Noun
 
 yuk:yuk # ukelele
 Wardo:Wardo #Wardo (a place)
-snewar:snewar #noun
+snewar:snewar #belly
+mnu:mnu #village
 
 LEXICON NounSpecificity
 
@@ -233,10 +235,12 @@ infa<cnjsub>:infa #so that
 fa<cnjsub>:fa #so that
 ra<cnjsub>:ra #until
 indya<cnjcoo>:indya #so
+inja<cnjcoo>:inja #so
 vo<cnjsub>:vo #while
 voi<cnjcoo>:voi #but
 imboi<cnjcoo>:imboi #but
 indo<cnjsub>:indo #then
+ido<cnjsub>:ido #when, THEM
 
 LEXICON Prepositions
 ro<pr>:ro # at
@@ -288,7 +292,11 @@ LEXICON InalienablePrefix
 <px2pl>:mko
 <px3pl>:si
 
+LEXICON Adverb
 
+wer<adv>:wer #again
+kwar<adv>:kwar #already
+kaku<adv>:kaku #very
 
 
 
