@@ -86,35 +86,33 @@ Tests:
   Demonstratives: {}
   Directionals: {}
   Givenness:
-    ikoi<n>+i<prn><pers><p3><sg><giv>:
-    - ikoi nanya
-    kpu<n>+i<prn><pers><p3><sg><giv>:
-    - kpu anya
-    rum<n>+i<prn><pers><p3><sg><giv>:
-    - rum anya
-    waw<n>+i<prn><pers><p3><sg><giv>:
-    - waw anya
+    i<prn><pers><p3><sg><spc><giv>:
+    - anya
+    inko<prn><pers><p1><pl><ex><spc><giv>:
+    - naninkoya
+    na<prn><pers><p3><pl><inan><spc><giv>:
+    - nanna
+    sko<prn><pers><p3><pc><spc><giv>:
+    - anskoya
   Grammar Points: {}
   Inalienable Possession:
     ba<v><p3><sg>:
     - iba
     det<det><pos><p3><px3sg><spc>:
     - vyedya
-    sne<n><pos>:
+    sne<n><pos><px1sg><sg>:
     - sneri
     snewar<n>:
     - snewar
-    wemin<n>:
-    - wemin
+    vru<n><pos><px2sg><sg>:
+    - vrumri
+    vru<n><pos><px3sg><sg>:
+    - vruri
+    we<n><pos><px1sg><pl>:
+    - wesi
+    we<n><pos><px3du><pl>:
+    - suwesna
   Motion:
-    det<det><giv><p2><pl><spc><dir><dem><mot>:
-    - nanmkoipuryafa
-    det<det><giv><p3><sg><spc><dir><dem>:
-    - anipurwa
-    det<det><p3><sg><spc><dir><dem>:
-    - iraya
-    det<det><p3><sg><spc><mot>:
-    - iwama
     i<prn><pers><p3><sg><spc>+raya<det><dem>:
     - iraya
     i<prn><pers><p3><sg><spc>+wa<det><dem>+ma<adv>:
@@ -124,14 +122,10 @@ Tests:
     mko<prn><pers><p2><pl><spc><giv>+purya<det><dem>+fa<adv>:
     - nanmkoipuryafa
     sko<prn><pers><p3><pc><spc><giv>+purwa<det><dem>:
-    - anskopurwa
+    - anskoipurwa
   Noun Specificity:
     Wardo<n>+inko<prn><pers><p1><pl><ex><spc>:
     - Wardoinkoya
-    Wardo<n><spc><p1><pl><ex>:
-    - Wardoinkoya
-    for<n> ba<rel><spc><p3><sg>:
-    - for vebaya
     yuk<n>+i<prn><pers><p3><sg><spc>:
     - yukya
     yuk<n><nspc><pl>:

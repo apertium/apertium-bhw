@@ -126,15 +126,15 @@ LEXICON Verb-CV-Affix
 <p2><sg>:{2}
 <p3><sg>:{3}
 <p1><du><ex>:nu
-# <p1><du><inc>:ku
-# <p2><du>:mu
-# <p3><du>:su
-# <p3><pc>:sko
-# <p1><pl><ex>:nko
-# <p1><pl><inc>:ko
-# <p2><pl>:mko
-# <p3><pl><an>:si
-# <p3><pl><inan>:na
+<p1><du><inc>:ku
+<p2><du>:mu
+<p3><du>:su
+<p3><pc>:sko
+<p1><pl><ex>:nko
+<p1><pl><inc>:ko
+<p2><pl>:mko
+<p3><pl><an>:si
+<p3><pl><inan>:na
 
 LEXICON Verb-CV
 
@@ -187,7 +187,7 @@ Wardo:Wardo #Wardo (a place)
 
 LEXICON NounSpecificity
 
-<npsc><sg>:o
+<nspc><sg>:o
 <nspc><pl>:no
 
 LEXICON Possessor
