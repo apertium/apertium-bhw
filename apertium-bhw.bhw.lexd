@@ -201,9 +201,9 @@ det<det><pos><px1du><ex>:nuve
 det<det><pos><px2du>:muve
 det<det><pos><px3du>:suve
 det<det><pos><px1pc>:skove
-det<det><pos><px1pl><inc>:kove
-det<det><pos><px1pl><ex>:nkove
-det<det><pos><px1pl><ex>:inkove
+det<det><pos><px1pl><pxinc>:kove
+det<det><pos><px1pl><pxex>:nkove
+det<det><pos><px1pl><pxex>:inkove
 det<det><pos><px2pl>:mkove
 det<det><pos><px3pl><an>:se
 det<det><pos><px3pl><inan>:nbe
@@ -242,6 +242,59 @@ snar<pr>:snar # because of
 ker<pr>:ker # from
 bur<pr>:bur # from
 yov<pr>:yov # to
+
+LEXICON InalienableRoot
+we:we #leg
+vra:vra #arm
+sne:sne #belly area
+fi:fi #vagina
+si:si #penis
+do:do #inside
+sva:sva #mouth
+ná:ná #tooth
+snoni:snoni #nose
+mka:mka #eye
+sasu:sasu #neck
+
+LEXICON InalienableSuffix
+<px1sg><sg>:ri
+<px2sg><sg>:mri
+<px3sg><sg>:ri
+<px1sg><pl>:si
+<px2sg><pl>:msi
+<px3sg><pl>:si
+<px1du><du>:sna
+<px1du><pc>:sna
+<px1du><pl>:sna
+<px2du><du>:msna
+<px2du><pc>:msna
+<px2du><pl>:msna
+<px3du><du>:sna
+<px3du><pc>:sna
+<px3du><pl>:sna
+<px3pc><du>:sna
+<px3pc><pc>:sna
+<px3pc><pl>:sna
+<px1pl><du>:sna
+<px1pl><pc>:sna
+<px1pl><pl>:sna
+<px2pl><du>:msna
+<px2pl><pc>:msna
+<px2pl><pl>:msna
+<px3pl><an><du>:sna
+<px3pl><an><pc>:sna
+<px3pl><an><pl>:sna
+
+LEXICON InalienablePrefix
+
+<px1du><du><inc>:ku
+<px1du><du><exc>:nu
+<px2du><du>:mu
+<px3du><du>:su
+<px3pc><du>:sko
+<px1pl><pl>
+
+
 
 
 
