@@ -96,9 +96,9 @@ Tests:
     - anskoya
   Grammar Points: {}
   Inalienable Possession:
-    ba<v><p3><sg>:
+    ba<v><iv><p3><sg>:
     - iba
-    det<det><pos><p3><px3sg><spc>:
+    det<det><pos><px3sg><sg><spc>:
     - vyedya
     sne<n><pos><px1sg><sg>:
     - sneri

@@ -42,7 +42,8 @@ ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
 Prepositions
-[:<n><pos>] InalienablePrefix InalienableRoot InalienableSuffix
+:InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
+InalienableRoot [<n><pos>:] InalienableSuffix
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
@@ -141,9 +142,11 @@ LEXICON Verb-CV
 
 so<v><tv>:s{W}o # throw
 
+
 LEXICON Verb-CC #need to add transivity?
 
 srow<v><tv>:srow # meet
+ba<v><iv>:ba # big
 
 LEXICON Verb-CC-Affix
 
@@ -185,6 +188,7 @@ LEXICON Noun
 
 yuk:yuk # ukelele
 Wardo:Wardo #Wardo (a place)
+snewar:snewar #noun
 
 LEXICON NounSpecificity
 
@@ -246,6 +250,7 @@ yov<pr>:yov # to
 
 LEXICON InalienableRoot
 we:we #leg
+vru:vru #head
 vra:vra #arm
 sne:sne #belly area
 fi:fi #vagina
