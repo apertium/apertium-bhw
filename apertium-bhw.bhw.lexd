@@ -44,6 +44,7 @@ Conjunction
 Prepositions
 :InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
 InalienableRoot [<n><pos>:] InalienableSuffix
+Adverb
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
