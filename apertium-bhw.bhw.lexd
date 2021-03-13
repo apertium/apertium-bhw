@@ -17,9 +17,20 @@
 # <lpar>   # Left parenthesis
 # <rpar>   # Right parenthesis
 
-# Number morphology
-# <pl>  # Plural
-# <sg>  # Singular
+# Verbs
+# <tv>   # transitive
+# <iv>   # intransitive
+# <p1>   # 1st person
+# <p2>   # 2nd person
+# <p3>   # 3rd person
+# <sg>   # singular
+# <du>   # dual
+# <pc>   # paucal
+# <pl>   # plural
+# <inc>  # inclusive
+# <ex>   # exclusive
+# <an>   # animate
+# <inan> # inanimate
 
 # Complex articles
 # <pers> # personal
@@ -35,7 +46,7 @@
 ###############################################################################
 
 PATTERNS
-# Punctuation
+Punctuation
 VerbPat
 NounPat
 ComplexArticle
@@ -262,7 +273,7 @@ fi:fi #vagina
 si:si #penis
 do:do #inside
 sva:sva #mouth
-ná:ná #tooth
+na:na #tooth
 snoni:snoni #nose
 mka:mka #eye
 sasu:sasu #neck
