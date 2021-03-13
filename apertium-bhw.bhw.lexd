@@ -6,6 +6,9 @@
 # <adv>    # Adverb
 # <prn>    # pronoun
 # <det>    # determiner
+# <cnjcoo> # coordinating conjunction
+# <cnjsub> # subordinating conjunction
+# <pr>     # preposition
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
