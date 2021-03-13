@@ -42,6 +42,7 @@ ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
 Prepositions
+[:<n><pos>] InalienablePrefix InalienableRoot InalienableSuffix
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
@@ -263,36 +264,24 @@ LEXICON InalienableSuffix
 <px1sg><pl>:si
 <px2sg><pl>:msi
 <px3sg><pl>:si
-<px1du><du>:sna
-<px1du><pc>:sna
-<px1du><pl>:sna
-<px2du><du>:msna
-<px2du><pc>:msna
-<px2du><pl>:msna
-<px3du><du>:sna
-<px3du><pc>:sna
-<px3du><pl>:sna
-<px3pc><du>:sna
-<px3pc><pc>:sna
-<px3pc><pl>:sna
-<px1pl><du>:sna
-<px1pl><pc>:sna
-<px1pl><pl>:sna
-<px2pl><du>:msna
-<px2pl><pc>:msna
-<px2pl><pl>:msna
-<px3pl><an><du>:sna
-<px3pl><an><pc>:sna
-<px3pl><an><pl>:sna
+<du>:sna
+<pc>:sna
+<pl>:sna
+<du>:msna
+<pc>:msna
+<pl>:msna
 
 LEXICON InalienablePrefix
 
-<px1du><du><inc>:ku
-<px1du><du><exc>:nu
-<px2du><du>:mu
-<px3du><du>:su
-<px3pc><du>:sko
-<px1pl><pl>
+<px1du>:ku
+<px1du>:nu
+<px2du>:mu
+<px3du>:su
+<px3pc>:sko
+<px1pl><pxinc>:ko
+<px1pl><pxexc>:nko
+<px2pl>:mko
+<px3pl>:si
 
 
 
