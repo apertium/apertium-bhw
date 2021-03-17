@@ -4,9 +4,10 @@ Alphabet
  %{A%}:a %>:0  
  %{2%}:0
  %{3%}:0
- %{W%}:w
- %{W%}:y
- %{W%}:0
+ %{W%}:w %{W%}:y %{W%}:0
+ %{YA%}:ya %{YA%}:i
+ %{AN%}:an %{AN%}:nan
+ %{YI%}:ya %{YI%}:i
  ;
 
 Sets
