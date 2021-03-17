@@ -12,13 +12,23 @@ Alphabet
 
 Sets
 
-Vowel = A E I O U Y
-        a e i o u y ;
+Vowel = A E I O U
+        a e i o u ;
+
+Consonant = B C D F G H J K L M N P Q R S T V W X Y Z
+  			b c d f g h j k l m n p q r s t v w x y z ;
 
 Rules
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+! this is wrong lol
+"Realize {YA} as i if in complex article"
+%{YA%}:i <=> _  %>:0 ;
+
+"Realize {W} as w in p2 sg"
+%{W%}:w <=> %{2%}: :Consonant _ ;
+
+"Realize {W} as w in p2 sg"
+%{W%}:y <=> %{3%}: :Consonant _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
