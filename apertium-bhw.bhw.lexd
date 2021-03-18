@@ -77,8 +77,11 @@ ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
 Prepositions
-:InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
-InalienableRoot [<n><pos>:] InalienableSuffix
+#:InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
+#InalienableRoot [<n><pos>:] InalienableSuffix
+#:InalienableCircumfix(1) InalienableRoot [<n>:] InalienableCircumfix(2)
+:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n>:] InalienableCircumfix(2)[-pair]
+:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n>:] InalienableCircumfix(2)[-nonpair]
 Adverb
 
 PATTERN VerbPat
@@ -273,9 +276,9 @@ ker<pr>:ker # from
 bur<pr>:bur # from
 yov<pr>:yov # to
 
-LEXICON InalienableRoot
-we:we #leg
-vru:vru #head
+LEXICON InalienableRoot[pair,nonpair]
+we:we[-pair] #leg
+vru:vru[-nonpair] #head
 vra:vra #arm
 sne:sne #belly area
 fi:fi #vagina
@@ -310,6 +313,16 @@ LEXICON InalienablePrefix
 <px1pl><pxex>:nko>
 <px2pl>:mko>
 <px3pl>:si>
+
+LEXICON InalienableCircumfix(2)[pair,nonpair]
+
+:ku>[-pair,-nonpair]       <du><px1duinc>:>s>na[-pair,-nonpair]
+:ku>       <pl><px1duinc>:>s>na
+:mu>       <du><px2du>:>m>s>na
+:mu>       <pl><px2du>:>m>s>na
+:[-pair]    <du><px1sg>:>si[-pair]
+:[-nonpair]   <sg><px1sg>:>ri[-nonpair]
+
 
 LEXICON Adverb
 
