@@ -7,7 +7,7 @@ Alphabet
  %{W%}:w %{W%}:y %{W%}:0
  %{YA%}:ya %{YA%}:i
  %{AN%}:an %{AN%}:nan
- %{YI%}:ya %{YI%}:i
+ %{M%}:0 %{M%}:m
  ;
 
 Sets
@@ -29,6 +29,9 @@ Rules
 
 "Realize {W} as w in p2 sg"
 %{W%}:y <=> %{3%}: :Consonant _ ;
+
+! "Realize {M} as m in px2du and px2pl"
+! %{M%}:m <=> _ :s :n :a <n>: <pos>: <px2pl>: ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
