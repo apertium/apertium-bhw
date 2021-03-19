@@ -76,13 +76,13 @@ PATTERNS
 Punctuation
 VerbPat
 NounPat
-#ComplexArticle
-#Possessor Possessum [<spc>:]
-#Conjunction
-#Prepositions
-#:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
-#:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
-#Adverb
+ComplexArticle
+Possessor Possessum [<spc>:]
+Conjunction
+Prepositions
+:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
+:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
+Adverb
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
