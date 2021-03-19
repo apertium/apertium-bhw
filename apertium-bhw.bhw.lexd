@@ -280,16 +280,16 @@ yov<pr>:yov # to
 LEXICON InalienableRoot[pair,nonpair]
 we:we[-pair] #leg
 vru:vru[-nonpair] #head
-vra:vra #arm
-sne:sne #belly area
-fi:fi #vagina
-si:si #penis
-do:do #inside
-sva:sva #mouth
-na:na #tooth
-snoni:snoni #nose
-mka:mka #eye
-sasu:sasu #neck
+vra:vra[-pair] #arm
+sne:sne[-nonpair] #belly area
+fi:fi[-nonpair] #vagina
+si:si[-nonpair] #penis
+do:do[-nonpair] #inside
+sva:sva[-nonpair] #mouth
+na:na[-nonpair] #tooth
+snoni:snoni[-nonpair] #nose
+mka:mka[-pair] #eye
+sasu:sasu[-nonpair] #neck
 
 LEXICON InalienableSuffix
 <px1sg><sg>:>ri
@@ -321,8 +321,8 @@ LEXICON InalienableCircumfix(2)[pair,nonpair]
 :[-nonpair]   <px1sg><sg>:>ri[-nonpair]
 :[-pair]    <px2sg><du>:>m>si[-pair]
 :[-nonpair]   <px2sg><sg>:>m>ri[-nonpair]
-:[-pair]    <px2sg><du>:>si[-pair]
-:[-nonpair]   <px2sg><sg>:>ri[-nonpair]
+:[-pair]    <px3sg><du>:>si[-pair]
+:[-nonpair]   <px3sg><sg>:>ri[-nonpair]
 :ku>[-pair,-nonpair]       <px1duinc><du>:>s>na[-pair,-nonpair]
 :ku>[-pair,-nonpair]       <px1duinc><pc>:>s>na[-pair,-nonpair]
 :ku>[-pair,-nonpair]       <px1duinc><pl>:>s>na[-pair,-nonpair]

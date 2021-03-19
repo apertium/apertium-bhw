@@ -7,13 +7,13 @@ Tests:
   Alienable Possession:
     det<det><pos><px1pc><sg><spc>:
     - skovedya
-    det<det><pos><px1pl><pxex><sg><spc>:
+    det<det><pos><px1plex><sg><spc>:
     - inkovedya
     det<det><pos><px1sg><sg><spc>:
     - yedya
     det<det><pos><px3sg><du><spc>:
     - vyesuya
-    det<det><pos><px3sg><pl><an><spc>:
+    det<det><pos><px3sg><plan><sg><spc>:
     - vyesya
     det<det><pos><px3sg><sg><spc>:
     - vyedya
@@ -104,13 +104,15 @@ Tests:
     - sneri
     snewar<n>:
     - snewar
+    vru<n><pos><px2pl><du>:
+    - mkovrumsna
     vru<n><pos><px2sg><sg>:
     - vrumri
     vru<n><pos><px3sg><sg>:
     - vruri
-    we<n><pos><px1sg><pl>:
+    we<n><pos><px1sg><du>:
     - wesi
-    we<n><pos><px3du><pl>:
+    we<n><pos><px3du><du>:
     - suwesna
   Motion:
     i<prn><pers><p3><sg><spc>+raya<det><dem>:
