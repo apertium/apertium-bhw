@@ -30,6 +30,8 @@
 # <du>   # dual
 # <pc>   # paucal
 # <pl>   # plural
+# <plan> # plural, animate
+#<plinan># plural, inanimate
 # <inc>  # inclusive
 # <ex>   # exclusive
 # <an>   # animate
@@ -232,8 +234,8 @@ det<det><pos><px1sg>:ye>
 det<det><pos><px2sg>:be>
 det<det><pos><px3sg>:vye>
 det<det><pos><px3sg>:ye> # Dir/LR
-det<det><pos><px1du><inc>:kuve>
-det<det><pos><px1du><ex>:nuve>
+det<det><pos><px1duinc>:kuve>
+det<det><pos><px1duex>:nuve>
 det<det><pos><px2du>:muve>
 det<det><pos><px3du>:suve>
 det<det><pos><px1pc>:skove>
@@ -241,15 +243,15 @@ det<det><pos><px1plinc>:kove>
 det<det><pos><px1plex>:nkove> # Dir/LR
 det<det><pos><px1plex>:inkove>
 det<det><pos><px2pl>:mkove>
-det<det><pos><px3pl><an>:se>
-det<det><pos><px3pl><inan>:nbe>
+det<det><pos><px3plan>:se>
+det<det><pos><px3plinan>:nbe>
 
 LEXICON Possessum
 <sg>:d{YA}
 <du>:su{YA}
 <pc>:sko{YA}
-<pl><an>:s{YA}
-<pl><inan>:na
+<plan>:s{YA}
+<plinan>:na
 
 LEXICON Conjunction 
 
