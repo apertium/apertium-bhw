@@ -47,17 +47,18 @@
 # <px1sg> # possessor, 1st person
 # <px2sg> # possessor, 2nd person
 # <px3sg> # possessor, 3rd person
-# <px1du> # possessor, 1st person dual
-# <pxinc> # possessor, inclusive
-# <pxex> # possessor, exclusive
+# <px1duinc> # possessor, 1st person dual, inclusive
+# <px1duex> # possessor, 1st person dual, exclusive
+# <pxinc> # possessor, inclusive -- removed
+# <pxex> # possessor, exclusive -- removed
 # <px2du> # possessor, 2nd person dual
 # <px3du> # possessor, 3rd person dual
 # <px1pc> # possessor, paucal
-# <px1pl> # possessor, 1st person plural
-# <px2pl> # possessor, 2nd person plural
-# <px3pl> # possessor, 3rd person plural
-# <an> # animate
-# <inan> # inanimate
+# <px1plinc> # possessor, 1st person plural, inclusive
+# <px1plex> # possessor, 1st person plural, exclusive
+# <px2plan> # possessor, 3rd person plural, animate
+# <px2plinan> # possessor, 3rd person plural, animate
+
 
 
 
@@ -80,8 +81,8 @@ Prepositions
 #:InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
 #InalienableRoot [<n><pos>:] InalienableSuffix
 #:InalienableCircumfix(1) InalienableRoot [<n>:] InalienableCircumfix(2)
-:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n>:] InalienableCircumfix(2)[-pair]
-:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n>:] InalienableCircumfix(2)[-nonpair]
+:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
+:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
 Adverb
 
 PATTERN VerbPat
@@ -236,9 +237,9 @@ det<det><pos><px1du><ex>:nuve>
 det<det><pos><px2du>:muve>
 det<det><pos><px3du>:suve>
 det<det><pos><px1pc>:skove>
-det<det><pos><px1pl><pxinc>:kove>
-det<det><pos><px1pl><pxex>:nkove> # Dir/LR
-det<det><pos><px1pl><pxex>:inkove>
+det<det><pos><px1plinc>:kove>
+det<det><pos><px1plex>:nkove> # Dir/LR
+det<det><pos><px1plex>:inkove>
 det<det><pos><px2pl>:mkove>
 det<det><pos><px3pl><an>:se>
 det<det><pos><px3pl><inan>:nbe>
@@ -316,12 +317,40 @@ LEXICON InalienablePrefix
 
 LEXICON InalienableCircumfix(2)[pair,nonpair]
 
-:ku>[-pair,-nonpair]       <du><px1duinc>:>s>na[-pair,-nonpair]
-:ku>       <pl><px1duinc>:>s>na
-:mu>       <du><px2du>:>m>s>na
-:mu>       <pl><px2du>:>m>s>na
-:[-pair]    <du><px1sg>:>si[-pair]
-:[-nonpair]   <sg><px1sg>:>ri[-nonpair]
+:[-pair]    <px1sg><du>:>si[-pair]
+:[-nonpair]   <px1sg><sg>:>ri[-nonpair]
+:[-pair]    <px2sg><du>:>m>si[-pair]
+:[-nonpair]   <px2sg><sg>:>m>ri[-nonpair]
+:[-pair]    <px2sg><du>:>si[-pair]
+:[-nonpair]   <px2sg><sg>:>ri[-nonpair]
+:ku>[-pair,-nonpair]       <px1duinc><du>:>s>na[-pair,-nonpair]
+:ku>[-pair,-nonpair]       <px1duinc><pc>:>s>na[-pair,-nonpair]
+:ku>[-pair,-nonpair]       <px1duinc><pl>:>s>na[-pair,-nonpair]
+:nu>[-pair,-nonpair]       <px1duex><du>:>s>na[-pair,-nonpair]
+:nu>[-pair,-nonpair]       <px1duex><pc>:>s>na[-pair,-nonpair]
+:nu>[-pair,-nonpair]       <px1duex><pl>:>s>na[-pair,-nonpair]
+:mu>[-pair,-nonpair]       <px2du><du>:>m>s>na[-pair,-nonpair]
+:mu>[-pair,-nonpair]       <px2du><pc>:>m>s>na[-pair,-nonpair]
+:mu>[-pair,-nonpair]       <px2du><pl>:>m>s>na[-pair,-nonpair]
+:su>[-pair,-nonpair]       <px3du><du>:>s>na[-pair,-nonpair]
+:su>[-pair,-nonpair]       <px3du><pc>:>s>na[-pair,-nonpair]
+:su>[-pair,-nonpair]       <px3du><pl>:>s>na[-pair,-nonpair]
+:sko>[-pair,-nonpair]       <px3pc><du>:>s>na[-pair,-nonpair]
+:sko>[-pair,-nonpair]       <px3pc><pc>:>s>na[-pair,-nonpair]
+:sko>[-pair,-nonpair]       <px3pc><pl>:>s>na[-pair,-nonpair]
+:ko>[-pair,-nonpair]       <px1plinc><du>:>s>na[-pair,-nonpair]
+:ko>[-pair,-nonpair]       <px1plinc><pc>:>s>na[-pair,-nonpair]
+:ko>[-pair,-nonpair]       <px1plinc><pl>:>s>na[-pair,-nonpair]
+:nko>[-pair,-nonpair]       <px1duex><du>:>s>na[-pair,-nonpair]
+:nko>[-pair,-nonpair]       <px1duex><pc>:>s>na[-pair,-nonpair]
+:nko>[-pair,-nonpair]       <px1duex><pl>:>s>na[-pair,-nonpair]
+:mko>[-pair,-nonpair]       <px2pl><du>:>m>s>na[-pair,-nonpair]
+:mko>[-pair,-nonpair]       <px2pl><pc>:>m>s>na[-pair,-nonpair]
+:mko>[-pair,-nonpair]       <px2pl><pl>:>m>s>na[-pair,-nonpair]
+:si>[-pair,-nonpair]       <px3plan><du>:>s>na[-pair,-nonpair]
+:si>[-pair,-nonpair]       <px3plan><pc>:>s>na[-pair,-nonpair]
+:si>[-pair,-nonpair]       <px3plan><pl>:>s>na[-pair,-nonpair]
+
 
 
 LEXICON Adverb
