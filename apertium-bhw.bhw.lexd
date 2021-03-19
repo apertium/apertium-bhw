@@ -76,20 +76,17 @@ PATTERNS
 Punctuation
 VerbPat
 NounPat
-ComplexArticle
-Possessor Possessum [<spc>:]
-Conjunction
-Prepositions
-#:InalienablePrefix InalienableRoot [<n><pos>:] InalienablePrefix: InalienableSuffix
-#InalienableRoot [<n><pos>:] InalienableSuffix
-#:InalienableCircumfix(1) InalienableRoot [<n>:] InalienableCircumfix(2)
-:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
-:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
-Adverb
+#ComplexArticle
+#Possessor Possessum [<spc>:]
+#Conjunction
+#Prepositions
+#:InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
+#:InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
+#Adverb
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC Verb-CC-Affix:
-:Verb-V-Affix  Verb-V  Verb-V-Affix:
+:Verb-V-Affix  Verb-V(1) [<v>:] Verb-V(2): Verb-V-Affix:
 :Verb-CV-Affix Verb-CV Verb-CV-Affix:
 
 PATTERN NounPat
@@ -134,8 +131,7 @@ ra<adv>:>ra
 
 LEXICON Givenness
 
-<giv>:{AN}
-<giv>:nan>
+<giv>:{n}an>
 
 LEXICON Pronoun-Specifier
 
@@ -195,10 +191,10 @@ LEXICON Verb-CC-Affix
 <p3><pl><an>:si>
 <p3><pl><inan>:na>
 
-LEXICON Verb-V
+LEXICON Verb-V(2)
 
-arok<v><iv>:arok # be straight
-obe<v><tv>:obe # say
+arok:arok    <iv>:       # be straight
+obe:obe      <tv>:       # say
 
 LEXICON Verb-V-Affix
 
@@ -293,29 +289,6 @@ snoni:snoni[-nonpair] #nose
 mka:mka[-pair] #eye
 sasu:sasu[-nonpair] #neck
 
-LEXICON InalienableSuffix
-<px1sg><sg>:>ri
-<px2sg><sg>:>mri
-<px3sg><sg>:>ri
-<px1sg><pl>:>si
-<px2sg><pl>:>msi
-<px3sg><pl>:>si
-<du>:>{M}sna
-<pc>:>{M}sna
-<pl>:>{M}sna
-
-
-LEXICON InalienablePrefix
-
-<px1du><pxinc>:ku>
-<px1du><pxex>:nu>
-<px2du>:mu>
-<px3du>:su>
-<px3pc>:sko>
-<px1pl><pxinc>:ko>
-<px1pl><pxex>:nko>
-<px2pl>:mko>
-<px3pl>:si>
 
 LEXICON InalienableCircumfix(2)[pair,nonpair]
 

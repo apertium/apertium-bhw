@@ -13,7 +13,7 @@ Tests:
     - yedya
     det<det><pos><px3sg><du><spc>:
     - vyesuya
-    det<det><pos><px3sg><plan><sg><spc>:
+    det<det><pos><px3sg><plan><spc>:
     - vyesya
     det<det><pos><px3sg><sg><spc>:
     - vyedya
@@ -104,16 +104,22 @@ Tests:
     - sneri
     snewar<n>:
     - snewar
+    vra<n><pos><px2du><du>:
+    - muvramsna
     vru<n><pos><px2pl><du>:
     - mkovrumsna
     vru<n><pos><px2sg><sg>:
     - vrumri
+    vru<n><pos><px3plan><pc>:
+    - sivrusna
     vru<n><pos><px3sg><sg>:
     - vruri
     we<n><pos><px1sg><du>:
     - wesi
     we<n><pos><px3du><du>:
     - suwesna
+    we<n><pos><px3pc><du>:
+    - skowesna
   Motion:
     i<prn><pers><p3><sg><spc>+raya<det><dem>:
     - iraya

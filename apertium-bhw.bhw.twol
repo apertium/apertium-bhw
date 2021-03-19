@@ -6,8 +6,7 @@ Alphabet
  %{3%}:0
  %{W%}:w %{W%}:y %{W%}:0
  %{YA%}:ya %{YA%}:i
- %{AN%}:an %{AN%}:nan
- %{M%}:0 %{M%}:m
+ %{n%}:0 %{n%}:n
  ;
 
 Sets
@@ -20,7 +19,6 @@ Consonant = B C D F G H J K L M N P Q R S T V W X Y Z
 
 Rules
 
-! this is wrong lol
 "Realize {YA} as i if in complex article"
 %{YA%}:i <=> _  %>:0 ;
 
@@ -30,8 +28,6 @@ Rules
 "Realize {W} as w in p2 sg"
 %{W%}:y <=> %{3%}: :Consonant _ ;
 
-! "Realize {M} as m in px2du and px2pl"
-! %{M%}:m <=> _ :s :n :a <n>: <pos>: <px2pl>: ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
