@@ -5,8 +5,8 @@ Alphabet
  %{2%}:0
  %{3%}:0
  %{W%}:w %{W%}:y %{W%}:0
- %{YA%}:ya %{YA%}:i
- %{n%}:0 %{n%}:n
+ %{Y%}:y %{Y%}:i
+ %{a%}:a %{a%}:0
  ;
 
 Sets
@@ -19,8 +19,11 @@ Consonant = B C D F G H J K L M N P Q R S T V W X Y Z
 
 Rules
 
-"Realize {YA} as i if in complex article"
-%{YA%}:i <=> _  %>:0 ;
+"Realize {Y} as i if in complex article"
+%{Y%}:i <=> _  %{a%}: %>:0 \.#. ;
+
+"Realize {a} as 0 if in complex article"
+%{a%}:0 <=> _  %>:0 ;
 
 "Realize {W} as w in p2 sg"
 %{W%}:w <=> %{2%}: :Consonant _ ;

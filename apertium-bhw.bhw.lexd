@@ -131,22 +131,22 @@ ra<adv>:>ra
 
 LEXICON Givenness
 
-<giv>:{n}an>
+<giv>:an>
 
 LEXICON Pronoun-Specifier
 
 aya<prn><pers><p1><sg><spc>:yai
-aw<prn><pers><p2><sg><spc>:aw{YA}
-i<prn><pers><p3><sg><spc>:{YA}
-ku<prn><pers><p1><du><inc><spc>:ku{YA}
-nu<prn><pers><p1><du><ex><spc>:nu{YA}
-mu<prn><pers><p2><du><spc>:mu{YA}
-su<prn><pers><p3><du><spc>:su{YA}
-sko<prn><pers><p3><pc><spc>:sko{YA}
-ko<prn><pers><p1><pl><inc><spc>:ko{YA}
-inko<prn><pers><p1><pl><ex><spc>:inko{YA}
-mko<prn><pers><p2><pl><spc>:mko{YA}
-si<prn><pers><p3><pl><an><spc>:s{YA}
+aw<prn><pers><p2><sg><spc>:aw{Y}{a}
+i<prn><pers><p3><sg><spc>:{Y}{a}
+ku<prn><pers><p1><du><inc><spc>:ku{Y}{a}
+nu<prn><pers><p1><du><ex><spc>:nu{Y}{a}
+mu<prn><pers><p2><du><spc>:mu{Y}{a}
+su<prn><pers><p3><du><spc>:su{Y}{a}
+sko<prn><pers><p3><pc><spc>:sko{Y}{a}
+ko<prn><pers><p1><pl><inc><spc>:ko{Y}{a}
+inko<prn><pers><p1><pl><ex><spc>:inko{Y}{a}
+mko<prn><pers><p2><pl><spc>:mko{Y}{a}
+si<prn><pers><p3><pl><an><spc>:s{Y}{a}
 na<prn><pers><p3><pl><inan><spc>:na
 
 LEXICON Verb-CV-Affix
@@ -243,10 +243,10 @@ det<det><pos><px3plan>:se>
 det<det><pos><px3plinan>:nbe>
 
 LEXICON Possessum
-<sg>:d{YA}
-<du>:su{YA}
-<pc>:sko{YA}
-<plan>:s{YA}
+<sg>:d{Y}{a}
+<du>:su{Y}{a}
+<pc>:sko{Y}{a}
+<plan>:s{Y}{a}
 <plinan>:na
 
 LEXICON Conjunction 
