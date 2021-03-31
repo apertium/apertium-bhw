@@ -85,9 +85,9 @@ Prepositions
 Adverb
 
 PATTERN VerbPat
-:Verb-CC-Affix Verb-CC Verb-CC-Affix:
+:Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
 :Verb-V-Affix  Verb-V(1) [<v>:] Verb-V(2): Verb-V-Affix:
-:Verb-CV-Affix Verb-CV Verb-CV-Affix:
+:Verb-CV-Affix Verb-CV(1) [<v>:] Verb-CV(2): Verb-CV-Affix:
 
 PATTERN NounPat
 Noun [<n>:] NounSpecificity?
@@ -165,15 +165,16 @@ LEXICON Verb-CV-Affix
 <p3><pl><an>:si>
 <p3><pl><inan>:na>
 
-LEXICON Verb-CV
+LEXICON Verb-CV(2)
 
-so<v><tv>:s{W}o # throw
+so:s{W}o     <tv>: # throw
+ra:r{W}a     <iv>: # go
 
 
-LEXICON Verb-CC #need to add transivity?
+LEXICON Verb-CC(2)
 
-srow<v><tv>:srow # meet
-ba<v><iv>:ba # big
+srow:srow  <tv>: # meet
+ba:ba      <iv>: # big
 
 LEXICON Verb-CC-Affix
 
@@ -253,7 +254,7 @@ LEXICON Conjunction
 
 ma<cnjcoo>:ma #and
 kukr<cnjsub>:kukr #with, because
-kukru<cnjsub>:kukr #with, because
+kukru<cnjsub>:kukru #with, because
 infa<cnjsub>:infa #so that
 fa<cnjsub>:fa #so that
 ra<cnjsub>:ra #until
