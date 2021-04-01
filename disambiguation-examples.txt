@@ -1,0 +1,8 @@
+ra:ra<cnjsub> #until
+# can directly precede a verb--Prepositions cannot
+
+Saroiya dorn siya, siya sinm monda ra simar. # "The whale ate some, others drank (river water) only until they died."
+Sufan i ra iba kwar. # "The two took care of him until he was big (had become big)"
+
+ra:ra<pr> # along
+Komran ra vanda # We walk along the seaside

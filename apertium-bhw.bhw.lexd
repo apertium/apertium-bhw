@@ -175,6 +175,9 @@ LEXICON Verb-CC(2)
 
 srow:srow  <tv>: # meet
 ba:ba      <iv>: # big
+mran:mran  <iv>: # walk
+mar:mar    <iv>: # die
+fan:fan    <tv>: # feed/take care of
 
 LEXICON Verb-CC-Affix
 
@@ -196,6 +199,8 @@ LEXICON Verb-V(2)
 
 arok:arok    <iv>:       # be straight
 obe:obe      <tv>:       # say
+orn:orn      <tv>:       # swallow
+inm:inm      <tv>:       # drink
 
 LEXICON Verb-V-Affix
 
@@ -219,6 +224,8 @@ yuk:yuk # ukelele
 Wardo:Wardo #Wardo (a place)
 snewar:snewar #belly
 mnu:mnu #village
+saroi:saroi #whale
+vanda:vanda #seaside
 
 LEXICON NounSpecificity
 
@@ -334,6 +341,7 @@ LEXICON Adverb
 wer<adv>:wer #again
 kwar<adv>:kwar #already
 kaku<adv>:kaku #very
+monda<adv>:monda #only
 
 
 
