@@ -6,3 +6,10 @@ Sufan i ra iba kwar. # "The two took care of him until he was big (had become bi
 
 ra:ra<pr> # along
 Komran ra vanda # We walk along the seaside
+
+
+nari:na<n><pos><px1sg><sg>/na<n><pos><px3sg><sg>
+nari iba # Her tooth was big (iba<v><3sg>)
+
+nari:nari<aux> # "will", indicates future tense
+Oso imar ido mgokans awer i snar nari ikbawes wer fa ikenem. # "If a person dies, don't weep for him/her because s/he will rise again to be alive."
