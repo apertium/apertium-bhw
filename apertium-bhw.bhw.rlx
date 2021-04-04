@@ -8,10 +8,19 @@ LIST N = n;
 LIST PR = pr;
 LIST CNJS = cnjsub;
 LIST CNJC = cnjcoo;
+LIST AUX = aux;
+LIST POS = pos;
 
 SECTION
-# If appears before verb, select conjunction
-REMOVE PR IF (1 V) ;
+# If we have the choice between cnjsub and preposition, and it appears before verb, select conjunction - not pr
+SELECT CNJS IF (0 CNJS)
+            (0 PR)
+            (1 V) ;
+
+# nari: aux vs. possessive: If there are no verbs after the verb, delete aux
+REMOVE AUX IF (0 AUX) 
+              (0 N + POS) 
+              (NEGATE (1* V)) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

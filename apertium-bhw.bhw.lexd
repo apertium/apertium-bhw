@@ -83,6 +83,7 @@ Prepositions
 :InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
 :InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
 Adverb
+Aux
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
@@ -102,6 +103,7 @@ PATTERN DemonstrativeDeterminer
 
 PATTERN MotionPat
 [+:] Motion
+
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -169,6 +171,7 @@ LEXICON Verb-CV(2)
 
 so:s{W}o     <tv>: # throw
 ra:r{W}a     <iv>: # go
+van:v{W}an   <tv>: # wash
 
 
 LEXICON Verb-CC(2)
@@ -344,6 +347,9 @@ kwar<adv>:kwar #already
 kaku<adv>:kaku #very
 monda<adv>:monda #only
 
+
+LEXICON Aux
+nari<aux>:nari #will
 
 
 
