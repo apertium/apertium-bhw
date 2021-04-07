@@ -21,21 +21,21 @@
 # <rpar>   # Right parenthesis
 
 # Verbs
-# <tv>   # transitive
-# <iv>   # intransitive
-# <p1>   # 1st person
-# <p2>   # 2nd person
-# <p3>   # 3rd person
-# <sg>   # singular
-# <du>   # dual
-# <pc>   # paucal
-# <pl>   # plural
-# <plan> # plural, animate
-#<plinan># plural, inanimate
-# <inc>  # inclusive
-# <ex>   # exclusive
-# <an>   # animate
-# <inan> # inanimate
+# <tv>     # transitive
+# <iv>     # intransitive
+# <p1>     # 1st person
+# <p2>     # 2nd person
+# <p3>     # 3rd person
+# <sg>     # singular
+# <du>     # dual
+# <pc>     # paucal
+# <pl>     # plural
+# <plan>   # plural, animate
+# <plinan> # plural, inanimate
+# <inc>    # inclusive
+# <ex>     # exclusive
+# <an>     # animate
+# <inan>   # inanimate
 
 # Complex articles
 # <pers> # personal
@@ -172,6 +172,7 @@ LEXICON Verb-CV(2)
 so:s{W}o     <tv>: # throw
 ra:r{W}a     <iv>: # go
 van:v{W}an   <tv>: # wash
+nas:n{W}as   <tv>: # smell
 
 
 LEXICON Verb-CC(2)
@@ -181,6 +182,7 @@ ba:ba      <iv>: # big
 mran:mran  <iv>: # walk
 mar:mar    <iv>: # die
 fan:fan    <tv>: # feed/take care of
+snai:snai  <tv>: # enlightens
 
 LEXICON Verb-CC-Affix
 
@@ -230,6 +232,9 @@ mnu:mnu #village
 saroi:saroi #whale
 vanda:vanda #seaside
 snari:snari #mother
+rofan:rofan #dog
+ikak:ikak #snake
+marandan:marandan #life/trip
 
 LEXICON NounSpecificity
 
@@ -241,7 +246,6 @@ det<det><pos><px1sg>:aye> # Dir/LR
 det<det><pos><px1sg>:ye>
 det<det><pos><px2sg>:be>
 det<det><pos><px3sg>:vye>
-det<det><pos><px3sg>:ye> # Dir/LR
 det<det><pos><px1duinc>:kuve>
 det<det><pos><px1duex>:nuve>
 det<det><pos><px2du>:muve>
