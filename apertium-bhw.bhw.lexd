@@ -85,6 +85,7 @@ Prepositions
 Adverb
 Aux
 Pronoun
+Fill
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
@@ -231,6 +232,7 @@ LEXICON Noun
 
 yuk:yuk # ukelele
 Wardo:Wardo #Wardo (a place)
+Mananamakrdi #Name of a legendary man
 snewar:snewar #belly
 mnu:mnu #village
 saroi:saroi #whale
@@ -370,8 +372,20 @@ LEXICON Pronoun
 aya<prn><pers><p1><sg>:aya
 aw<prn><pers><p2><sg>:aw
 i<prn><pers><p3><sg>:i
+ku<prn><pers><p1><du><inc>:ku
+nu<prn><pers><p1><du><ex>:nu
+mu<prn><pers><p2><du>:mu
+su<prn><pers><p3><du>:su
+sko<prn><pers><p3><pc>:sko
+ko<prn><pers><p1><pl><inc>:ko
+inko<prn><pers><p1><pl><ex>:inko
+mko<prn><pers><p2><pl>:mko
+si<prn><pers><p3><pl><an>:si
+na<prn><pers><p3><pl><inan>:na
 
-
+LEXICON Fill
+u<fill>:u
+o<fill>:o
 
 LEXICON Punctuation
 
@@ -383,7 +397,7 @@ LEXICON Punctuation
 !<sent>:!
 -<guio>:-
 —<guio>:—
-,<cm>:,
+<cm>:,
 ?<sent>:? 
 '<apos>:'
 "<quot>:"
