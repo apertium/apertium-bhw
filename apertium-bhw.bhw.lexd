@@ -84,6 +84,7 @@ Prepositions
 :InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
 Adverb
 Aux
+Pronoun
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
@@ -182,7 +183,10 @@ ba:ba      <iv>: # big
 mran:mran  <iv>: # walk
 mar:mar    <iv>: # die
 fan:fan    <tv>: # feed/take care of
-snai:snai  <tv>: # enlightens
+snai:snai  <tv>: # light, enlightens
+mar:mar    <iv>: # die
+vark:vark  <iv>: # lie, live
+
 
 LEXICON Verb-CC-Affix
 
@@ -234,7 +238,13 @@ vanda:vanda #seaside
 snari:snari #mother
 rofan:rofan #dog
 ikak:ikak #snake
-marandan:marandan #life/trip
+marandan:marandan #life/trip 
+mnu:mnu #village
+dares:dares #sun
+ras:ras #day
+mnggarm:mnggarm #voice
+tahun:tahun #year
+paik:paik #month
 
 LEXICON NounSpecificity
 
@@ -246,6 +256,7 @@ det<det><pos><px1sg>:aye> # Dir/LR
 det<det><pos><px1sg>:ye>
 det<det><pos><px2sg>:be>
 det<det><pos><px3sg>:vye>
+det<det><pos><px3sg>:bye> # Dir/LR
 det<det><pos><px1duinc>:kuve>
 det<det><pos><px1duex>:nuve>
 det<det><pos><px2du>:muve>
@@ -355,7 +366,10 @@ monda<adv>:monda #only
 LEXICON Aux
 nari<aux>:nari #will
 
-
+LEXICON Pronoun
+aya<prn><pers><p1><sg>:aya
+aw<prn><pers><p2><sg>:aw
+i<prn><pers><p3><sg>:i
 
 
 
