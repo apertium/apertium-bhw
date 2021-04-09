@@ -242,7 +242,8 @@ LEXICON Noun
 yuk:yuk # ukelele
 Wardo:Wardo #Wardo (a place)
 Sepse:Sepse #Sepse (a place)
-Mananamakrdi #Name of a legendary man
+Mananamakrdi:Mananamakrdi #Name of a legendary man
+Kormsamba:Kormsamba #a name
 snewar:snewar #belly
 mnu:mnu #village
 saroi:saroi #whale
@@ -260,6 +261,8 @@ paik:paik #month
 rusa:rusa #deer
 rum:rum #house
 romawa:romawa #boy
+snonsnon:snonsnon #name
+
 
 LEXICON NounSpecificity
 

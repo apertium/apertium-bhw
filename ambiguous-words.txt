@@ -1,0 +1,5 @@
+Some ambiguous words to keep track of
+na: na<prn><pers><p3><pl><inan>/na<prn><pers><p3><pl><inan><spc>
+- This one is easy, the article always appears after a noun, otherwise it's a pronoun
+
+ra: ra<pr>/ra<cnjsub>
