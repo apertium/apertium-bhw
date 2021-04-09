@@ -179,14 +179,15 @@ nas:n{W}as   <tv>: # smell
 
 LEXICON Verb-CC(2)
 
-srow:srow  <tv>: # meet
-ba:ba      <iv>: # big
-mran:mran  <iv>: # walk
-mar:mar    <iv>: # die
-fan:fan    <tv>: # feed/take care of
-snai:snai  <tv>: # light, enlightens
-mar:mar    <iv>: # die
-vark:vark  <iv>: # lie, live
+srow:srow   <tv>: # meet
+ba:ba       <iv>: # big
+mran:mran   <iv>: # walk
+mar:mar     <iv>: # die
+fan:fan     <tv>: # feed/take care of
+snai:snai   <tv>: # light, enlightens
+vark:vark   <iv>: # lie, live
+sam:sam     <iv>: # be hot
+mbrow:mbrow <iv>: # be thirsty
 
 
 LEXICON Verb-CC-Affix
