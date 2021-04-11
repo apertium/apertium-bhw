@@ -32,6 +32,7 @@ Rules
 %{W%}:y <=> %{3%}: :Consonant _ ;
 
 
+
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
 ! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome

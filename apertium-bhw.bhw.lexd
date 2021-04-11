@@ -288,10 +288,14 @@ det<det><pos><px3plan>:se>
 det<det><pos><px3plinan>:nbe>
 
 LEXICON Possessum
-<sg>:d{Y}{a}
-<du>:su{Y}{a}
-<pc>:sko{Y}{a}
-<plan>:s{Y}{a}
+<sg>:dya
+<sg>:di # Dir/LR
+<du>:suya
+<du>:sui # Dir/LR
+<pc>:skoya
+<pc>:skoi # Dir/LR
+<plan>:sya
+<plan>:si # Dir/LR
 <plinan>:na
 
 LEXICON Conjunction 
