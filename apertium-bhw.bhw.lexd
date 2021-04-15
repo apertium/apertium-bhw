@@ -86,6 +86,7 @@ Adverb
 Aux
 Pronoun
 Fill
+PostVerb
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
@@ -177,6 +178,8 @@ ra:r{W}a     <iv>: # go
 van:v{W}an   <tv>: # wash
 nas:n{W}as   <tv>: # smell
 kain:k{W}ain <iv>: # sit
+vark:v{W}ark <iv>: # lie, live
+pauk:p{W}auk <tv>: # peel
 
 LEXICON Verb-CC(2)
 
@@ -186,7 +189,6 @@ mran:mran     <iv>: # walk
 mar:mar       <iv>: # die
 fan:fan       <tv>: # feed/take care of
 snai:snai     <tv>: # light, enlightens
-vark:vark     <iv>: # lie, live
 sam:sam       <iv>: # be hot
 mbrow:mbrow   <iv>: # be thirsty
 fafyar:fafyar <iv>: # tell a story
@@ -219,6 +221,7 @@ obe:obe      <tv>:       # say
 orn:orn      <tv>:       # swallow
 inm:inm      <tv>:       # drink
 ores:ores    <iv>:       # stand
+an:an        <tv>:       # eat
 
 LEXICON Verb-V-Affix
 
@@ -262,6 +265,9 @@ rusa:rusa #deer
 rum:rum #house
 romawa:romawa #boy
 snonsnon:snonsnon #name
+srai:srai #coconut
+mars:mars #mars (type of fruit)
+bon:bon #fruit/mountain
 
 
 LEXICON NounSpecificity
@@ -409,6 +415,20 @@ na<prn><pers><p3><pl><inan>:na
 LEXICON Fill
 u<fill>:u
 o<fill>:o
+
+LEXICON PostVerb
+wark<pv>:wark #guard, block
+pum<pv>:pum #push forward
+arok<pv>:arok #diagonal
+karandir<pv>:karandir #bordered
+karis<pv>:karis #side
+fadas<pv>:fadas #on one's back
+papark<pv>:papark #curled up
+pambar<pv>:pambar #turn over
+karapr<pv>:karapr #folded
+
+
+
 
 LEXICON Punctuation
 
