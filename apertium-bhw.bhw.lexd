@@ -101,8 +101,10 @@ PATTERN ComplexArticle
 Pronoun-Specifier DemonstrativeDeterminer? MotionPat?
 :Givenness Pronoun-Specifier Givenness: DemonstrativeDeterminer? MotionPat?
 
+
 PATTERN DemonstrativeDeterminer
-[+:] Directional? Demonstrative [<det><dem>:]
+[+:] Demonstrative [<det><dem>:]
+[+:] :Directional Demonstrative [<det><dem>:] [+:] Directional: [<adv>:]
 
 PATTERN MotionPat
 [+:] Motion
