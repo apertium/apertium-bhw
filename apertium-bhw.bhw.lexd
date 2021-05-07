@@ -87,6 +87,7 @@ Aux
 Pronoun
 Fill
 PostVerb
+Interjection [<ij>:]
 
 PATTERN VerbPat
 :Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
@@ -271,7 +272,29 @@ srai:srai #coconut
 mars:mars #mars (type of fruit)
 bon:bon #fruit/mountain
 ina:ina #girl
-
+abris:abris #grass
+abyab:abyab #cave
+acara:acara #party
+afyak:afyak #pillow
+ba:ba #hill, top, part
+ai:ai #wood
+aibe:aibe #coffin
+aiknam:aiknam #tree
+aimun:aimun #firewood
+ainkyon:ainkyon #stick
+aiwan:aiwan #animal
+alamat:alamat #address
+allah:allah #God
+amen:amen #bamboo
+Amerika:Amerika #America
+anak:anak #child
+ananun:ananun #message
+andoi:andoi #seaweed
+angkanken:angkanken #moss
+anum:anum #wood
+apen:apen #roast
+apus:apus #grandparent, grandchild
+ari:ari #Sunday
 
 LEXICON NounSpecificity
 
@@ -322,6 +345,7 @@ voi<cnjcoo>:voi #but
 imboi<cnjcoo>:imboi #but
 indo<cnjsub>:indo #then
 ido<cnjsub>:ido #when, THEM
+bo<cnjcoo>:bo #and
 
 LEXICON Prepositions
 ro<pr>:ro # at
@@ -395,6 +419,7 @@ kwar<adv>:kwar #already
 kaku<adv>:kaku #very
 monda<adv>:monda #only
 sampe<adv>:sampe #then
+ba<adv>:ba #not
 
 
 LEXICON Aux
@@ -430,7 +455,11 @@ papark<pv>:papark #curled up
 pambar<pv>:pambar #turn over
 karapr<pv>:karapr #folded
 
-
+LEXICON Interjection
+ba:ba #oh, exclamation
+boo:boo #oh, exclamation
+o:o #oh, exclamation
+ari:ari #please, exclamation
 
 
 LEXICON Punctuation
