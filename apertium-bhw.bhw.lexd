@@ -183,22 +183,39 @@ nas:n{W}as   <tv>: # smell
 kain:k{W}ain <iv>: # sit
 vark:v{W}ark <iv>: # lie, live
 pauk:p{W}auk <tv>: # peel
+rok:r{W}ok   <iv>: # sound, heard
+na:n{W}a     <tv>: # have
+be:b{W}e     <tv>: # become
+mam:m{W}am   <tv>: # see
+rew:r{W}ew   <tv>: # lick
+sun:s{W}un   <iv>: # enter
+pan:p{W}an   <tv>: # touch
+kar:k{W}ar   <iv>: # cut
+
 
 LEXICON Verb-CC(2)
 
-srow:srow     <tv>: # meet
-ba:ba         <iv>: # big
-mran:mran     <iv>: # walk
-mar:mar       <iv>: # die
-fan:fan       <tv>: # feed/take care of
-snai:snai     <tv>: # light, enlightens
-sam:sam       <iv>: # be hot
-mbrow:mbrow   <iv>: # be thirsty
-fafyar:fafyar <iv>: # tell a story
-mnai:mnai     <iv>: # stop
-fur:fur       <tv>: # build
-bro:bro       <iv>: # empty
-farkor:farkor <iv>: # study
+srow:srow         <tv>: # meet
+ba:ba             <iv>: # big
+mran:mran         <iv>: # walk
+mar:mar           <iv>: # die
+fan:fan           <tv>: # feed/take care of
+snai:snai         <tv>: # light, enlightens
+sam:sam           <iv>: # be hot
+mbrow:mbrow       <iv>: # be thirsty
+fafyar:fafyar     <iv>: # tell a story
+mnai:mnai         <iv>: # stop
+fur:fur           <tv>: # build
+bro:bro           <iv>: # empty
+farkor:farkor     <iv>: # study
+swarepen:swarepen <tv>: # remember
+bur:bur           <iv>: # leave
+fawi:fawi         <iv>: # know
+skop:skop         <tv>: # kick
+kfin:kfin         <tv>: # lead
+dwark:dwark       <tv>: # block
+vyar:vyar         <iv>: # swollen
+ser:ser           <tv>: # fill
 
 LEXICON Verb-CC-Affix
 
@@ -221,10 +238,13 @@ LEXICON Verb-V(2)
 
 arok:arok    <iv>:       # be straight
 obe:obe      <tv>:       # say
+obe:ove      <tv>:       # say
 orn:orn      <tv>:       # swallow
 inm:inm      <tv>:       # drink
 ores:ores    <iv>:       # stand
 an:an        <tv>:       # eat
+fararwer     <iv>:       # keep changing in a circle
+awos:awos    <iv>:       # speak
 
 LEXICON Verb-V-Affix
 
@@ -295,6 +315,25 @@ anum:anum #wood
 apen:apen #roast
 apus:apus #grandparent, grandchild
 ari:ari #Sunday
+sim:sim #bedroom
+binsar:binsar # old woman
+wemin:wemin # leg
+korben:korben # dragon
+insar:insar # old woman
+kpu:kpu #grandchild
+swan:swan #sea
+fioro:fioro # long time
+knafofr:knafofr # cheek
+romamkun:romamkun # boy
+mkamor:mkamor # eye
+majelis:majelis # deacon
+jemaat:jemaat # congregation
+kero:kero #little place
+gelas:gelas # glass
+Vyak:Vyak # Biak
+fawawi:fawawi # knowledge
+sup:sup # land
+kam:kam #all 
 
 LEXICON NounSpecificity
 
@@ -346,6 +385,10 @@ imboi<cnjcoo>:imboi #but
 indo<cnjsub>:indo #then
 ido<cnjsub>:ido #when, THEM
 bo<cnjcoo>:bo #and
+insama<cnjsub>:insama #so that
+bape<cnjcoo>:bape #but
+isof<cnjsub>:isof #until
+kurbei<cnjsub>:kurbei #however
 
 LEXICON Prepositions
 ro<pr>:ro # at
@@ -372,6 +415,7 @@ na:na[-nonpair] #tooth
 snoni:snoni[-nonpair] #nose
 mka:mka[-pair] #eye
 sasu:sasu[-nonpair] #neck
+don:don[-nonpair] #inside
 
 
 LEXICON InalienableCircumfix(2)[pair,nonpair]
@@ -420,6 +464,9 @@ kaku<adv>:kaku #very
 monda<adv>:monda #only
 sampe<adv>:sampe #then
 ba<adv>:ba #not
+ido<adv>:ido #then
+arwo<adv>:arwo #morning
+ak<adv>:ak #also
 
 
 LEXICON Aux
