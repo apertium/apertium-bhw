@@ -334,6 +334,23 @@ Vyak:Vyak # Biak
 fawawi:fawawi # knowledge
 sup:sup # land
 kam:kam #all 
+fararyor:fararyor #request
+farbakbuk:farbakbuk #marriage
+sampak:sampak #road
+faru:faru # middle
+saneraro:saneraro # heart
+fawar:fawar #story
+sapi:sapi #cow
+festa:festa #party
+saran:saran #suggestion
+sararyur:sararyur #poison
+fno:fno #nephew
+foto:foto #photo
+fuar:fuar #trunk
+saranden:saranden #holy
+fyor:fyor #time
+saswar:saswar # love
+gereja:gereja #church
 
 LEXICON NounSpecificity
 
@@ -488,8 +505,9 @@ si<prn><pers><p3><pl><an>:si
 na<prn><pers><p3><pl><inan>:na
 
 LEXICON Fill
-u<fill>:u
-o<fill>:o
+:u
+:o
+:e
 
 LEXICON PostVerb
 wark<pv>:wark #guard, block
