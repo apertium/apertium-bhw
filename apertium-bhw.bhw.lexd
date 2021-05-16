@@ -74,18 +74,17 @@
 
 PATTERNS
 Punctuation
-VerbPat
-NounPat
+VerbPat ([+:] Fill [<ij>:])?
+NounPat ([+:] Fill [<ij>:])?
 ComplexArticle
 Possessor Possessum [<spc>:]
 Conjunction
-Prepositions
+Prepositions ([+:] Fill [<ij>:])?
 :InalienableCircumfix(1)[-pair] InalienableRoot[-pair] [<n><pos>:] InalienableCircumfix(2)[-pair]
 :InalienableCircumfix(1)[-nonpair] InalienableRoot[-nonpair] [<n><pos>:] InalienableCircumfix(2)[-nonpair]
 Adverb
 Aux
 Pronoun
-Fill
 PostVerb
 Interjection [<ij>:]
 
@@ -203,7 +202,8 @@ fan:fan           <tv>: # feed/take care of
 snai:snai         <tv>: # light, enlightens
 sam:sam           <iv>: # be hot
 mbrow:mbrow       <iv>: # be thirsty
-fafyar:fafyar     <iv>: # tell a story
+fafyar:fafyar     <tv>: # tell a story
+fawar:fawar       <tv>: # tell a story
 mnai:mnai         <iv>: # stop
 fur:fur           <tv>: # build
 bro:bro           <iv>: # empty
@@ -216,6 +216,8 @@ kfin:kfin         <tv>: # lead
 dwark:dwark       <tv>: # block
 vyar:vyar         <iv>: # swollen
 ser:ser           <tv>: # fill
+so:so             <tv>: # follow
+kofen:kofen       <tv>: # say
 
 LEXICON Verb-CC-Affix
 
@@ -287,6 +289,7 @@ paik:paik #month
 rusa:rusa #deer
 rum:rum #house
 romawa:romawa #boy
+roma:roma # boy
 snonsnon:snonsnon #name
 srai:srai #coconut
 mars:mars #mars (type of fruit)
@@ -340,6 +343,7 @@ sampak:sampak #road
 faru:faru # middle
 saneraro:saneraro # heart
 fawar:fawar #story
+fafyar:fafyar #story
 sapi:sapi #cow
 festa:festa #party
 saran:saran #suggestion
@@ -351,6 +355,14 @@ saranden:saranden #holy
 fyor:fyor #time
 saswar:saswar # love
 gereja:gereja #church
+snon:snon #man
+mob:mob #place
+wos:wos #word
+bar:bar #part
+kawasa:kawasa #people
+keret:keret #clan
+fmar:fmar #genitals
+bin:bin #woman
 
 LEXICON NounSpecificity
 
@@ -390,15 +402,17 @@ LEXICON Conjunction
 
 ma<cnjcoo>:ma #and
 kukr<cnjsub>:kukr #with, because
-kukru<cnjsub>:kukru #with, because
+# kukru<cnjsub>:kukru #with, because
 infa<cnjsub>:infa #so that
 fa<cnjsub>:fa #so that
 ra<cnjsub>:ra #until
 indya<cnjcoo>:indya #so
+nja<cnjcoo>:nja #so
 inja<cnjcoo>:inja #so
 vo<cnjsub>:vo #while
 voi<cnjcoo>:voi #but
 imboi<cnjcoo>:imboi #but
+boi<cnjcoo>:boi #but
 indo<cnjsub>:indo #then
 ido<cnjsub>:ido #when, THEM
 bo<cnjcoo>:bo #and
@@ -418,6 +432,7 @@ snar<pr>:snar # because of
 ker<pr>:ker # from
 bur<pr>:bur # from
 yov<pr>:yov # to
+be<pr>:be #to
 
 LEXICON InalienableRoot[pair,nonpair]
 we:we[-pair] #leg
@@ -433,6 +448,8 @@ snoni:snoni[-nonpair] #nose
 mka:mka[-pair] #eye
 sasu:sasu[-nonpair] #neck
 don:don[-nonpair] #inside
+sno:sno[-nonpair] #name
+swa:swa[-nonpair] #spouse
 
 
 LEXICON InalienableCircumfix(2)[pair,nonpair]
@@ -484,6 +501,7 @@ ba<adv>:ba #not
 ido<adv>:ido #then
 arwo<adv>:arwo #morning
 ak<adv>:ak #also
+insape<adv>:insape #then
 
 
 LEXICON Aux
@@ -492,6 +510,7 @@ nari<aux>:nari #will
 LEXICON Pronoun
 aya<prn><pers><p1><sg>:aya
 aw<prn><pers><p2><sg>:aw
+aw<prn><pers><p2><sg>:au # Dir/LR
 i<prn><pers><p3><sg>:i
 ku<prn><pers><p1><du><inc>:ku
 nu<prn><pers><p1><du><ex>:nu
@@ -504,10 +523,6 @@ mko<prn><pers><p2><pl>:mko
 si<prn><pers><p3><pl><an>:si
 na<prn><pers><p3><pl><inan>:na
 
-LEXICON Fill
-:u
-:o
-:e
 
 LEXICON PostVerb
 wark<pv>:wark #guard, block
@@ -520,10 +535,22 @@ papark<pv>:papark #curled up
 pambar<pv>:pambar #turn over
 karapr<pv>:karapr #folded
 
+LEXICON Fill
+o:o
+e:e
+u:u
+yo:yo
+
+
 LEXICON Interjection
 ba:ba #oh, exclamation
 boo:boo #oh, exclamation
 o:o #oh, exclamation
+o:o
+e:e
+u:u
+a:a
+yo:yo
 ari:ari #please, exclamation
 
 
