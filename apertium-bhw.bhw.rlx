@@ -13,6 +13,8 @@ LIST POS = pos;
 LIST PRN = prn;
 LIST SPC = spc;
 LIST PERS = pers;
+LIST DET = det;
+LIST IJ = ij;
 
 SECTION
 # If we have the choice between cnjsub and preposition, and it appears before verb, select conjunction - not pr
@@ -28,6 +30,12 @@ REMOVE AUX IF (0 AUX)
 # na: pronoun vs. article: if following noun, select article
 SELECT SPC IF (0 PRN + PERS)
               (-1 N) ;
+
+
+# nan+e vs nane: verb vs article: if following a noun, it's probably the article
+SELECT SUB:1 PRN IF (0/1 PRN)
+                    (0/1 V)
+                    (-1 N) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
