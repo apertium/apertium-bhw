@@ -1,0 +1,18 @@
+{
+    "commonwords": {
+        "input": "commonwords-input.txt",
+        "mode": "bhw-morph"
+    },
+    "commonwords-gen": {
+        "input": "commonwords-gen-input.txt",
+        "mode": "bhw-gener"
+    },
+    "bhw": {
+        "input": "bhw-input.txt",
+        "mode": "bhw-morph"
+    },
+    "bhw-gen": {
+        "input": "bhw-gen-input.txt",
+        "mode": "bhw-gener"
+    }
+}

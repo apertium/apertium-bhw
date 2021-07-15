@@ -1,0 +1,40 @@
+[02TCbeFTWRuM#0] ^mnu/mnu<n>$
+[/02TCbeFTWRuM]
+[2LMN1DHNrXpG#0] ^Mananarmak/*Mananarmak$
+[/2LMN1DHNrXpG]
+[C9dmjileD08o#0] ^ido/ido<adv>/ido<cnjsub>$
+[/C9dmjileD08o]
+[C_6TXnDDIcfK#0] ^u/u<ij>$
+[/C_6TXnDDIcfK]
+[F1n3ouuAhcqU#0] ^boi/boi<cnjcoo>$
+[/F1n3ouuAhcqU]
+[OWoUqyBuK0Tg#0] ^ri/*ri$
+[/OWoUqyBuK0Tg]
+[PQmdDxPfnQu0#0] ^bo/bo<cnjcoo>$
+[/PQmdDxPfnQu0]
+[RlmcW7XDMQH4#0] ^be/be<pr>$
+[/RlmcW7XDMQH4]
+[V_ZPG0VXJCD3#0] ^rum/rum<n>$
+[/V_ZPG0VXJCD3]
+[Vqfdohjv8r_j#0] ^rdi/*rdi$
+[/Vqfdohjv8r_j]
+[ZcdMFaaGGHu2#0] ^o/o<ij>$
+[/ZcdMFaaGGHu2]
+[be0cNTrkJzbp#0] ^inja/inja<cnjcoo>$
+[/be0cNTrkJzbp]
+[f589jLxh_mxE#0] ^dobe/*dobe$
+[/f589jLxh_mxE]
+[lw9RnCytvO-x#0] ^ba/ba<ij>/ba<n>/ba<adv>$
+[/lw9RnCytvO-x]
+[mjcOvZUTbosg#0] ^mob/mob<n>$
+[/mjcOvZUTbosg]
+[o5vsfD3CwLrn#0] ^sup/sup<n>$
+[/o5vsfD3CwLrn]
+[tayd2HxxE-sf#0] ^kwar/kwar<adv>$
+[/tayd2HxxE-sf]
+[tdzsI9-NnWaZ#0] ^rya/*rya$
+[/tdzsI9-NnWaZ]
+[ueWxFZKTV3BG#0] ^kaku/kaku<adv>$
+[/ueWxFZKTV3BG]
+[ypeBEsobvcr6#0] ^a/a<ij>$
+[/ypeBEsobvcr6]

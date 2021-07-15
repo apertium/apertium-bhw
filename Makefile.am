@@ -50,13 +50,13 @@ LEXCFLAGS=-v --Werror
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexd.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
-	hfst-fst2fst -O $< -o $@
+	hfst-minimize $< | hfst-fst2fst -O -o $@
 
 .deps/$(LANG1).spellrelax.hfst: $(BASENAME).$(LANG1).spellrelax .deps/.d
 	hfst-regexp2fst -S -o $@ $<
 
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).spellrelax.hfst
-	hfst-compose -1 $< -2 .deps/$(LANG1).spellrelax.hfst | hfst-invert | hfst-fst2fst -O -o $@
+	hfst-compose -1 $< -2 .deps/$(LANG1).spellrelax.hfst | hfst-invert | hfst-realign | hfst-minimize | hfst-fst2fst -O -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
@@ -189,7 +189,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "TODO test sentence" | apertium -d . -f line bhw-morph | tee .test-mt
-	@echo "TODO test analysis results" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test

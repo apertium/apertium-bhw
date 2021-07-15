@@ -1,0 +1,90 @@
+# Alienable Possession
+^det<det><pos><px1pc><sg><spc>$
+^det<det><pos><px1plex><sg><spc>$
+^det<det><pos><px1sg><sg><spc>$
+^det<det><pos><px3sg><du><spc>$
+^det<det><pos><px3sg><plan><spc>$
+^det<det><pos><px3sg><sg><spc>$
+# CC-initial
+^srow<v><tv><p1><du><ex>$
+^srow<v><tv><p1><du><inc>$
+^srow<v><tv><p1><pl><ex>$
+^srow<v><tv><p1><pl><inc>$
+^srow<v><tv><p1><sg>$
+^srow<v><tv><p2><du>$
+^srow<v><tv><p2><pl>$
+^srow<v><tv><p2><sg>$
+^srow<v><tv><p3><du>$
+^srow<v><tv><p3><pc>$
+^srow<v><tv><p3><pl><an>$
+^srow<v><tv><p3><pl><inan>$
+^srow<v><tv><p3><sg>$
+# CV-initial
+^so<v><tv><p1><du><ex>$
+^so<v><tv><p1><du><inc>$
+^so<v><tv><p1><pl><ex>$
+^so<v><tv><p1><pl><inc>$
+^so<v><tv><p1><sg>$
+^so<v><tv><p2><du>$
+^so<v><tv><p2><pl>$
+^so<v><tv><p2><sg>$
+^so<v><tv><p3><du>$
+^so<v><tv><p3><pc>$
+^so<v><tv><p3><pl><an>$
+^so<v><tv><p3><pl><inan>$
+^so<v><tv><p3><sg>$
+# Conjuctions
+^indo<cnjsub>$
+^indya<cnjcoo>$
+^ma<cnjcoo>$
+^ra<cnjsub>$
+^voi<cnjcoo>$
+# Givenness
+^i<prn><pers><p3><sg><spc><giv>$
+^inko<prn><pers><p1><pl><ex><spc><giv>$
+^na<prn><pers><p3><pl><inan><spc><giv>$
+^sko<prn><pers><p3><pc><spc><giv>$
+# Inalienable Possession
+^ba<v><iv><p3><sg>$
+^det<det><pos><px3sg><sg><spc>$
+^sne<n><pos><px1sg><sg>$
+^snewar<n>$
+^vra<n><pos><px2du><du>$
+^vru<n><pos><px2pl><du>$
+^vru<n><pos><px2sg><sg>$
+^vru<n><pos><px3plan><pc>$
+^vru<n><pos><px3sg><sg>$
+^we<n><pos><px1sg><du>$
+^we<n><pos><px3du><du>$
+^we<n><pos><px3pc><du>$
+# Motion
+^i<prn><pers><p3><sg><spc>+raya<det><dem>$
+^i<prn><pers><p3><sg><spc>+wa<det><dem>+ma<adv>$
+^i<prn><pers><p3><sg><spc>+yasya<det><dem>$
+^mko<prn><pers><p2><pl><spc><giv>+purya<det><dem>+fa<adv>$
+^sko<prn><pers><p3><pc><spc><giv>+purwa<det><dem>$
+# Noun Specificity
+^Wardo<n>+inko<prn><pers><p1><pl><ex><spc>$
+^yuk<n>+i<prn><pers><p3><sg><spc>$
+^yuk<n><nspc><pl>$
+^yuk<n><nspc><sg>$
+# Prepositions
+^bur<pr>$
+^ker<pr>$
+^kukr<pr>$
+^ro<pr>$
+^snar<pr>$
+# V-initial
+^arok<v><iv><p1><du><ex>$
+^arok<v><iv><p1><du><inc>$
+^arok<v><iv><p1><pl><ex>$
+^arok<v><iv><p1><pl><inc>$
+^arok<v><iv><p1><sg>$
+^arok<v><iv><p2><du>$
+^arok<v><iv><p2><pl>$
+^arok<v><iv><p2><sg>$
+^arok<v><iv><p3><du>$
+^arok<v><iv><p3><pc>$
+^arok<v><iv><p3><pl><an>$
+^arok<v><iv><p3><pl><inan>$
+^arok<v><iv><p3><sg>$

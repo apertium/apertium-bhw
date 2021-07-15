@@ -74,7 +74,7 @@
 
 PATTERNS
 Punctuation
-VerbPat ([+:] Fill [<ij>:])?
+#VerbPat ([+:] Fill [<ij>:])? # this line causes memory overflow TODO
 NounPat ([+:] Fill [<ij>:])?
 ComplexArticle
 Possessor Possessum [<spc>:]
@@ -89,9 +89,9 @@ PostVerb
 Interjection [<ij>:]
 
 PATTERN VerbPat
-:Verb-CC-Affix Verb-CC(1) [<v>:] Verb-CC(2): Verb-CC-Affix:
-:Verb-V-Affix  Verb-V(1) [<v>:] Verb-V(2): Verb-V-Affix:
-:Verb-CV-Affix Verb-CV(1) [<v>:] Verb-CV(2): Verb-CV-Affix:
+:Verb-CC-Affix ( Verb-CC(1) [<v>:] Verb-CC(2): ) Verb-CC-Affix:
+:Verb-V-Affix  ( Verb-V(1) [<v>:] Verb-V(2): ) Verb-V-Affix:
+:Verb-CV-Affix ( Verb-CV(1) [<v>:] Verb-CV(2): ) Verb-CV-Affix:
 
 PATTERN NounPat
 Noun [<n>:] NounSpecificity?
@@ -564,7 +564,7 @@ LEXICON Punctuation
 !<sent>:!
 -<guio>:-
 —<guio>:—
-<cm>:,
+,<cm>:,
 ?<sent>:? 
 '<apos>:'
 "<quot>:"

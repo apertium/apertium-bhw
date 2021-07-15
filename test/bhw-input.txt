@@ -1,0 +1,90 @@
+# Alienable Possession
+skovedya
+inkovedya
+yedya
+vyesuya
+vyesya
+vyedya
+# CC-initial
+nusrow
+kusrow
+nkosrow
+kosrow
+yasrow
+musrow
+mkosrow
+wasrow
+susrow
+skosrow
+sisrow
+nasrow
+isrow
+# CV-initial
+nuso
+kuso
+nkoso
+koso
+yaso
+muso
+mkoso
+swo
+suso
+skoso
+siso
+naso
+syo
+# Conjuctions
+indo
+indya
+ma
+ra
+voi
+# Givenness
+anya
+naninkoya
+nanna
+anskoya
+# Inalienable Possession
+iba
+vyedya
+sneri
+snewar
+muvramsna
+mkovrumsna
+vrumri
+sivrusna
+vruri
+wesi
+suwesna
+skowesna
+# Motion
+iraya
+iwama
+iyasya
+nanmkoipuryafa
+anskoipurwa
+# Noun Specificity
+Wardoinkoya
+yukya
+yukno
+yuko
+# Prepositions
+bur
+ker
+kukr
+ro
+snar
+# V-initial
+nuyarok
+kuyarok
+nkarok
+karok
+yarok
+muyarok
+mkarok
+warok
+suyarok
+skarok
+sarok
+narok
+darok

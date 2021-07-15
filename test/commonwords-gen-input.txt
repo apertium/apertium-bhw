@@ -1,0 +1,7 @@
+# Common unidentified words
+^ido<cnjsub>$
+^inja<cnjcoo>$
+^kaku<adv>$
+^mnu<n>$
+^kwar<adv>$
+^obe<v><tv><p3><sg>$
