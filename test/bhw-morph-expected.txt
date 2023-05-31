@@ -1,12 +1,12 @@
-[-OOhozOPKgPD#0] ^karok/*karok$
+[-OOhozOPKgPD#0] ^karok/arok<v><iv><p1><pl><inc>$
 [/-OOhozOPKgPD]
-[-bWQWaUI1okA#0] ^kusrow/*kusrow$
+[-bWQWaUI1okA#0] ^kusrow/srow<v><tv><p1><du><inc>$
 [/-bWQWaUI1okA]
-[12yho9Db9v8f#0] ^swo/*swo$
+[12yho9Db9v8f#0] ^swo/so<v><tv><p2><sg>$
 [/12yho9Db9v8f]
-[33-mCTdyMsn1#0] ^mkosrow/*mkosrow$
+[33-mCTdyMsn1#0] ^mkosrow/srow<v><tv><p2><pl>$
 [/33-mCTdyMsn1]
-[356O9jVyo6y-#0] ^naso/*naso$
+[356O9jVyo6y-#0] ^naso/so<v><tv><p3><pl><inan>$
 [/356O9jVyo6y-]
 [3PnnXKIkFhGw#0] ^naninkoya/*naninkoya$
 [/3PnnXKIkFhGw]
@@ -16,7 +16,7 @@
 [/6iElQvDFx9l1]
 [8iUXC_JcKYdf#0] ^mkovrumsna/vru<n><pos><px2pl><pc>/vru<n><pos><px2pl><du>/vru<n><pos><px2pl><pl>$
 [/8iUXC_JcKYdf]
-[AKT0A8HOa8y2#0] ^yasrow/*yasrow$
+[AKT0A8HOa8y2#0] ^yasrow/srow<v><tv><p1><sg>$
 [/AKT0A8HOa8y2]
 [AaIZJF4VAf7g#0] ^ker/ker<pr>$
 [/AaIZJF4VAf7g]
@@ -24,21 +24,21 @@
 [/B3_xn6uVFBa1]
 [BDiR-4F5Ur7T#0] ^indo/indo<cnjsub>$
 [/BDiR-4F5Ur7T]
-[CwhR4_WsoO53#0] ^nasrow/*nasrow$
+[CwhR4_WsoO53#0] ^nasrow/srow<v><tv><p3><pl><inan>$
 [/CwhR4_WsoO53]
-[CzciEOmmsWbX#0] ^koso/*koso$
+[CzciEOmmsWbX#0] ^koso/so<v><tv><p1><pl><inc>$
 [/CzciEOmmsWbX]
 [FWMQwqrzUB6E#0] ^iyasya/i<prn><pers><p3><sg><spc>+ya<det><dem>+yas<adv>$
 [/FWMQwqrzUB6E]
-[Gb3gtY8eYhXp#0] ^isrow/*isrow$
+[Gb3gtY8eYhXp#0] ^isrow/srow<v><tv><p3><sg>$
 [/Gb3gtY8eYhXp]
-[KCfW1aJ8xxSK#0] ^skarok/*skarok$
+[KCfW1aJ8xxSK#0] ^skarok/arok<v><iv><p3><pc>$
 [/KCfW1aJ8xxSK]
 [KqfJYx7VeY20#0] ^muvramsna/vra<n><pos><px2du><pc>/vra<n><pos><px2du><du>/vra<n><pos><px2du><pl>$
 [/KqfJYx7VeY20]
-[LAAkcIrCtR4r#0] ^nuso/*nuso$
+[LAAkcIrCtR4r#0] ^nuso/so<v><tv><p1><du><ex>$
 [/LAAkcIrCtR4r]
-[LXEEoqRmaq7e#0] ^susrow/*susrow$
+[LXEEoqRmaq7e#0] ^susrow/srow<v><tv><p3><du>$
 [/LXEEoqRmaq7e]
 [M2shdwpBqdOG#0] ^vrumri/vru<n><pos><px2sg><sg>$
 [/M2shdwpBqdOG]
@@ -46,51 +46,51 @@
 [/M5OdB-JfVOZD]
 [N-dwLlzkScEi#0] ^ra/ra<pr>/ra<cnjsub>$
 [/N-dwLlzkScEi]
-[O1lutYhpa7-O#0] ^iba/*iba$
+[O1lutYhpa7-O#0] ^iba/ba<v><iv><p3><sg>$
 [/O1lutYhpa7-O]
 [PETD4bi3hEeG#0] ^ma/ma<cnjcoo>$
 [/PETD4bi3hEeG]
 [PUmdd1vjWAfP#0] ^vyesya/det<det><pos><px3sg><plan><spc>$
 [/PUmdd1vjWAfP]
-[QX7j7RoWCxlF#0] ^nusrow/*nusrow$
+[QX7j7RoWCxlF#0] ^nusrow/srow<v><tv><p1><du><ex>$
 [/QX7j7RoWCxlF]
 [RKefEhXXg0C_#0] ^sneri/sne<n><pos><px3sg><sg>/sne<n><pos><px1sg><sg>$
 [/RKefEhXXg0C_]
 [RVu40T_x_QbE#0] ^snar/snar<pr>$
 [/RVu40T_x_QbE]
-[S6K5ktZVby-O#0] ^darok/*darok$
+[S6K5ktZVby-O#0] ^darok/arok<v><iv><p3><sg>$
 [/S6K5ktZVby-O]
-[SXYf4wLXjKBJ#0] ^narok/*narok$
+[SXYf4wLXjKBJ#0] ^narok/arok<v><iv><p3><pl><inan>/rok<v><iv><p3><pl><inan>$
 [/SXYf4wLXjKBJ]
 [SZiK8CqTd01U#0] ^iraya/i<prn><pers><p3><sg><spc>+ya<det><dem>+ra<adv>$
 [/SZiK8CqTd01U]
-[Tbjw-AgfIGKr#0] ^siso/*siso$
+[Tbjw-AgfIGKr#0] ^siso/so<v><tv><p3><pl><an>$
 [/Tbjw-AgfIGKr]
 [Tc_CDg077qda#0] ^anskoya/sko<prn><pers><p3><pc><spc><giv>$
 [/Tc_CDg077qda]
-[TygpcUrBZnxe#0] ^mkarok/*mkarok$
+[TygpcUrBZnxe#0] ^mkarok/arok<v><iv><p2><pl>$
 [/TygpcUrBZnxe]
 [UQkgi-cVWG2M#0] ^nanmkoipuryafa/*nanmkoipuryafa$
 [/UQkgi-cVWG2M]
 [UT25UyYHGekE#0] ^iwama/i<prn><pers><p3><sg><spc>+wa<det><dem>+ma<adv>$
 [/UT25UyYHGekE]
-[UrrLoxd5Lm_v#0] ^mkoso/*mkoso$
+[UrrLoxd5Lm_v#0] ^mkoso/so<v><tv><p2><pl>$
 [/UrrLoxd5Lm_v]
-[V3s3afvQ6AEz#0] ^nuyarok/*nuyarok$
+[V3s3afvQ6AEz#0] ^nuyarok/arok<v><iv><p1><du><ex>$
 [/V3s3afvQ6AEz]
 [WTSt_niHOhID#0] ^snewar/snewar<n>$
 [/WTSt_niHOhID]
-[X4QS1LVke49R#0] ^sarok/*sarok$
+[X4QS1LVke49R#0] ^sarok/arok<v><iv><p3><pl><an>$
 [/X4QS1LVke49R]
-[ZGyGLh60yM7C#0] ^nkarok/*nkarok$
+[ZGyGLh60yM7C#0] ^nkarok/arok<v><iv><p1><pl><ex>$
 [/ZGyGLh60yM7C]
 [_-5e-EjCgOuT#0] ^indya/indya<cnjcoo>$
 [/_-5e-EjCgOuT]
-[_tgyoFEwOL9K#0] ^kuso/*kuso$
+[_tgyoFEwOL9K#0] ^kuso/so<v><tv><p1><du><inc>$
 [/_tgyoFEwOL9K]
-[aMxQPYFGOvnU#0] ^yarok/*yarok$
+[aMxQPYFGOvnU#0] ^yarok/arok<v><iv><p1><sg>/rok<v><iv><p1><sg>$
 [/aMxQPYFGOvnU]
-[apVHsOKVY20F#0] ^wasrow/*wasrow$
+[apVHsOKVY20F#0] ^wasrow/srow<v><tv><p2><sg>$
 [/apVHsOKVY20F]
 [bDWYNCz24U9D#0] ^vyesuya/det<det><pos><px3sg><du><spc>$
 [/bDWYNCz24U9D]
@@ -98,51 +98,51 @@
 [/bevusmL4OxoR]
 [cmJiNIdxwzyO#0] ^skovedya/det<det><pos><px1pc><sg><spc>$
 [/cmJiNIdxwzyO]
-[e_dk-oLzmuuG#0] ^sisrow/*sisrow$
+[e_dk-oLzmuuG#0] ^sisrow/srow<v><tv><p3><pl><an>$
 [/e_dk-oLzmuuG]
 [fvnsDPLE-sr9#0] ^ro/ro<pr>$
 [/fvnsDPLE-sr9]
-[h74oKOX4BSJs#0] ^kosrow/*kosrow$
+[h74oKOX4BSJs#0] ^kosrow/srow<v><tv><p1><pl><inc>$
 [/h74oKOX4BSJs]
-[hY7nl5jcey76#0] ^suyarok/*suyarok$
+[hY7nl5jcey76#0] ^suyarok/arok<v><iv><p3><du>$
 [/hY7nl5jcey76]
 [hbARoONZzOvO#0] ^yukno/yuk<n><nspc><pl>$
 [/hbARoONZzOvO]
-[jNC5mGXtDGtB#0] ^warok/*warok$
+[jNC5mGXtDGtB#0] ^warok/arok<v><iv><p2><sg>$
 [/jNC5mGXtDGtB]
-[j_OTCklCF65M#0] ^musrow/*musrow$
+[j_OTCklCF65M#0] ^musrow/srow<v><tv><p2><du>$
 [/j_OTCklCF65M]
 [jdGluwMMNnt2#0] ^yuko/yuk<n><nspc><sg>/yuk<n>+o<ij>$
 [/jdGluwMMNnt2]
 [m6QOytjyPvVP#0] ^skowesna/we<n><pos><px3pc><pl>/we<n><pos><px3pc><du>/we<n><pos><px3pc><pc>$
 [/m6QOytjyPvVP]
-[mMZxnaSpWVsR#0] ^yaso/*yaso$
+[mMZxnaSpWVsR#0] ^yaso/so<v><tv><p1><sg>$
 [/mMZxnaSpWVsR]
 [mz3_3GRJzO0a#0] ^sivrusna/vru<n><pos><px3plan><pl>/vru<n><pos><px3plan><du>/vru<n><pos><px3plan><pc>$
 [/mz3_3GRJzO0a]
 [o6t1VjhUcCA8#0] ^suwesna/we<n><pos><px3du><pl>/we<n><pos><px3du><du>/we<n><pos><px3du><pc>$
 [/o6t1VjhUcCA8]
-[p8RkfQl6q-sB#0] ^skosrow/*skosrow$
+[p8RkfQl6q-sB#0] ^skosrow/srow<v><tv><p3><pc>$
 [/p8RkfQl6q-sB]
 [p8amJhbnb64n#0] ^anskoipurwa/sko<prn><pers><p3><pc><spc><giv>+wa<det><dem>+pur<adv>$
 [/p8amJhbnb64n]
-[pCF1dE7oA7fh#0] ^nkoso/*nkoso$
+[pCF1dE7oA7fh#0] ^nkoso/so<v><tv><p1><pl><ex>$
 [/pCF1dE7oA7fh]
-[q56Jdnc0qeAT#0] ^kuyarok/*kuyarok$
+[q56Jdnc0qeAT#0] ^kuyarok/arok<v><iv><p1><du><inc>$
 [/q56Jdnc0qeAT]
 [qHz0lxAxHsbL#0] ^kukr/kukr<pr>/kukr<cnjsub>$
 [/qHz0lxAxHsbL]
-[qasCWWk7Z2Ts#0] ^muso/*muso$
+[qasCWWk7Z2Ts#0] ^muso/so<v><tv><p2><du>$
 [/qasCWWk7Z2Ts]
-[qwcxWEDA14To#0] ^suso/*suso$
+[qwcxWEDA14To#0] ^suso/so<v><tv><p3><du>$
 [/qwcxWEDA14To]
-[shPeFAdcS2Ov#0] ^nkosrow/*nkosrow$
+[shPeFAdcS2Ov#0] ^nkosrow/srow<v><tv><p1><pl><ex>$
 [/shPeFAdcS2Ov]
 [t7JUoRBTKgSC#0] ^Wardoinkoya/Wardo<n>+inko<prn><pers><p1><pl><ex><spc>$
 [/t7JUoRBTKgSC]
 [tiv1-2Kg_e0K#0] ^yukya/yuk<n>+i<prn><pers><p3><sg><spc>$
 [/tiv1-2Kg_e0K]
-[u3YcKMu-unQw#0] ^syo/*syo$
+[u3YcKMu-unQw#0] ^syo/so<v><tv><p3><sg>$
 [/u3YcKMu-unQw]
 [usiiAKgWWDuO#0] ^vyedya/det<det><pos><px3sg><sg><spc>$
 [/usiiAKgWWDuO]
@@ -150,9 +150,9 @@
 [/vHbcCXQ7pPaA]
 [wIwNJ5p_wV3L#0] ^voi/voi<cnjcoo>$
 [/wIwNJ5p_wV3L]
-[x2s25M54yhNY#0] ^skoso/*skoso$
+[x2s25M54yhNY#0] ^skoso/so<v><tv><p3><pc>$
 [/x2s25M54yhNY]
 [xB1x8IABsyLD#0] ^wesi/we<n><pos><px3sg><du>/we<n><pos><px1sg><du>$
 [/xB1x8IABsyLD]
-[zEdJLdoyZduL#0] ^muyarok/*muyarok$
+[zEdJLdoyZduL#0] ^muyarok/arok<v><iv><p2><du>$
 [/zEdJLdoyZduL]

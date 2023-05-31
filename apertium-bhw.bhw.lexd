@@ -74,7 +74,7 @@
 
 PATTERNS
 Punctuation
-#VerbPat ([+:] Fill [<ij>:])? # this line causes memory overflow TODO
+VerbPat ([+:] Fill [<ij>:])?
 NounPat ([+:] Fill [<ij>:])?
 ComplexArticle
 Possessor Possessum [<spc>:]
